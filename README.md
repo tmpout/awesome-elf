@@ -40,8 +40,8 @@ Your [contributions](contributing.md) are always welcome !
 ### ELF VX technology
 
 - Peter Ferrie and Flibi
-    -[FLIBI: EVOLUTION](http://pferrie.epizy.com/papers/flibi2.pdf?i=1)
-    -[FLIBI: RELOADED](http://pferrie.epizy.com/papers/flibi3.pdf)
+  - [FLIBI: EVOLUTION](http://pferrie.epizy.com/papers/flibi2.pdf?i=1)
+  - [FLIBI: RELOADED](http://pferrie.epizy.com/papers/flibi3.pdf)
 
 ### ELF header hacks
 
