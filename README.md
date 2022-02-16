@@ -65,16 +65,14 @@ Your [contributions](contributing.md) are always welcome !
 
 ### ELF header hacks
 
-
 ### DWARF stuff
 
-
-### MISC
+~~~~### MISC
 
 - [vx-underground heaven](https://www.vx-underground.org/archive/VxHeaven/lib/vsp44.html)
 - [PageBuster](https://rev.ng/blog/pagebuster/post.html)
 - [ANSIWAVE BBS](https://ansiwave.net/)
-
+- [WIZARD BIBLE (in Japanese)](https://wizardbible.github.io/)
 
 ### Polyglots
 
