@@ -67,7 +67,7 @@ Your [contributions](contributing.md) are always welcome !
 
 ### DWARF stuff
 
-~~~~### MISC
+### MISC
 
 - [vx-underground heaven](https://www.vx-underground.org/archive/VxHeaven/lib/vsp44.html)
 - [PageBuster](https://rev.ng/blog/pagebuster/post.html)
