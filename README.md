@@ -50,6 +50,10 @@ Your [contributions](contributing.md) are always welcome !
 
 - [test_lint](https://blog.cloudflare.com/how-to-execute-an-object-file-part-1/)
 
+- [test_lint](http://dbp-consulting.com/tutorials/debugging/linuxProgramStartup.html)
+
+- [test_lint](https://n0.lol/ebm/1.html)
+
 - netspooky and ELF Binary Mangling
   - [ELF Binary Mangling Part 1: Concepts](https://n0.lol/ebm/1.html)
   - [Elf Binary Mangling Pt. 2: Golfin'](https://n0.lol/ebm/2.html)
