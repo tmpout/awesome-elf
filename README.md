@@ -48,6 +48,8 @@ Your [contributions](contributing.md) are always welcome !
   - [Executable and Linkable Format 101 Part 3: Relocations](https://www.intezer.com/blog/malware-analysis/executable-and-linkable-format-101-part-3-relocations/)
   - [Executable and Linkable Format 101 Part 4: Dynamic Linking](https://www.intezer.com/blog/malware-analysis/executable-linkable-format-101-part-4-dynamic-linking/)
 
+- [test_lint](https://blog.cloudflare.com/how-to-execute-an-object-file-part-1/)
+
 - netspooky and ELF Binary Mangling
   - [ELF Binary Mangling Part 1: Concepts](https://n0.lol/ebm/1.html)
   - [Elf Binary Mangling Pt. 2: Golfin'](https://n0.lol/ebm/2.html)
