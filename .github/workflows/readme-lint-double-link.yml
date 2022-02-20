@@ -1,4 +1,4 @@
-name: Awesome readme lint double link action
+name: Lint double link
 on:
   pull_request:
     types: [opened, synchronize]
