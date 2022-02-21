@@ -72,6 +72,10 @@ Your [contributions](contributing.md) are always welcome !
 - Manu Garg and ELF Auxiliary Vectors
   - [About ELF Auxiliary Vectors](https://articles.manugarg.com/aboutelfauxiliaryvectors.html)
 
+- Aprodu Andrei Ciprian and ELF linking process
+  - [Interactive Exploration of the Process of Linking Executables](https://github.com/Eteru/Elf-Detective---Bachelor-Paper/blob/master/thesis.pdf)
+  - [ELF_Detective](https://github.com/Eteru/ELF-Detective)
+
 - Tools
   - [clodl: self-contained dynamic libraries](https://github.com/tweag/clodl)
   - [StaticX ](https://github.com/JonathonReinhart/staticx)
@@ -107,10 +111,6 @@ Your [contributions](contributing.md) are always welcome !
 - Lucas Galante + Marcus Botacin and (malware/goodware) binary classification
   - [Forseti](https://github.com/marcusbotacin/ELF.Classifier)
   - [Machine Learning for Malware Detection](https://github.com/marcusbotacin/ELF.Classifier/blob/master/paper/classifier.pdf)
-
-- Aprodu Andrei Ciprian and ELF linking process
-  - [Interactive Exploration of the Process of Linking Executables](https://github.com/Eteru/Elf-Detective---Bachelor-Paper/blob/master/thesis.pdf)
-  - [ELF_Detective](https://github.com/Eteru/ELF-Detective)
 
 - [Reflections on Trusting Trust](https://www.cs.cmu.edu/~rdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf)
 - [Static linked ELF infecting](https://packetstormsecurity.com/files/34013/0x4553-Static_Infecting.html.html)
