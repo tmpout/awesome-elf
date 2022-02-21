@@ -8,7 +8,7 @@ on:
       - main
 jobs:
   build:
-    name: awesome readme lint double link
+    name: readme lint find double links
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
