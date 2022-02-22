@@ -1,4 +1,4 @@
-# Awesome _X Resources
+# Awesome ELF Resources
 
                            ┌───────────────────────┐                            
                            ▄▄▄▄▄ ▄▄▄▄▄ ▄▄▄▄▄       │                            
