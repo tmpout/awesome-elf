@@ -42,7 +42,7 @@ Your [contributions](contributing.md) are always welcome !
 - David Smith and Handmade ELFs
   - [Handmade Linux x86 executables](https://youtube.com/playlist?list=PLZCIHSjpQ12woLj0sjsnqDH8yVuXwTy3p)
 
-- Ignacio Sanmillan and ELF 101
+- Ignacio Sanmillan / Paul Litvak and ELF 101
   - [Executable and Linkable Format 101 - Part 1 Sections and Segments](https://www.intezer.com/blog/research/executable-linkable-format-101-part1-sections-segments/)
   - [Executable and Linkable Format 101. Part 2: Symbols](https://www.intezer.com/blog/malware-analysis/executable-linkable-format-101-part-2-symbols/)
   - [Executable and Linkable Format 101 Part 3: Relocations](https://www.intezer.com/blog/malware-analysis/executable-and-linkable-format-101-part-3-relocations/)
@@ -76,6 +76,19 @@ Your [contributions](contributing.md) are always welcome !
   - [Interactive Exploration of the Process of Linking Executables](https://github.com/Eteru/Elf-Detective---Bachelor-Paper/blob/master/thesis.pdf)
   - [ELF_Detective](https://github.com/Eteru/ELF-Detective)
 
+- elfmaster and everything about ELF
+  - [ELF shared library injection forensics](https://engineering.backtrace.io/2016-04-14-elf-shared-library-injection-forensics/)
+  - [Secure ELF parsing/loading library](https://github.com/elfmaster/libelfmaster)
+  - [... and examples](https://github.com/elfmaster/libelfmaster_examples)
+  - [Transform vmlinuz into a fully debuggable vmlinux that can be used with /proc/kcore](https://github.com/elfmaster/kdress)
+  - [fork-trace](https://github.com/elfmaster/fork_trace)
+  - [extended core file snapshot format](https://github.com/elfmaster/ecfs) and [exec](https://github.com/elfmaster/ecfs_exec)
+  - [Obfuscates dynamic symbol table](https://github.com/elfmaster/dsym_obfuscate)
+  - [ftrace](https://github.com/elfmaster/ftrace) and [new ftrace](https://github.com/elfmaster/binflow)
+  - [hidden process /bin/ps](https://github.com/elfmaster/taskverse)
+  - [davinci](https://github.com/elfmaster/davinci)
+  - [sherlocked](https://github.com/elfmaster/sherlocked)
+
 - Tools
   - [clodl: self-contained dynamic libraries](https://github.com/tweag/clodl)
   - [StaticX ](https://github.com/JonathonReinhart/staticx)
@@ -84,7 +97,7 @@ Your [contributions](contributing.md) are always welcome !
   - [The Backdoor Factory](https://github.com/Binject/backdoorfactory)
   - [elfcat - ELF visualizer](https://github.com/ruslashev/elfcat)
   - [xELFViewer - ELF file viewer](https://github.com/horsicq/XELFViewer)
-
+  - [lief](https://github.com/lief-project/LIEF)
 ### ELF VX technology
 
 - Peter Ferrie and Flibi
@@ -118,6 +131,19 @@ Your [contributions](contributing.md) are always welcome !
 - [Last Digital Common Ancestor (LDCA)](https://github.com/mertyildiran/ldca/blob/master/linux_x86/dev.asm)
 - [(nearly) Complete Linux Loadable Kernel Modules](http://www.ouah.org/LKM_HACKING.html)
 - [Kernel mode hooking [EN]](https://is.muni.cz/el/fi/jaro2011/PV204/um/LinuxRootkits/sys_call_table_complete.htm)
+
+- elfmaster and ELF vx
+  - [Devestating and awesome Linux X86_64 ELF Virus](https://github.com/elfmaster/skeksi_virus)
+  - [ELF Shared library injector using DT_NEEDED precedence infection](https://github.com/elfmaster/dt_infect)
+  - [SCOP ELF vx](https://github.com/elfmaster/scop_virus_paper)
+  - [Saruman - ELF anti-forensics exec](https://github.com/elfmaster/saruman)
+  - [AV prototype - 32bit](https://github.com/elfmaster/avu32)
+  - [LK rootkit](https://github.com/elfmaster/kprobe_rootkit)
+
+- Intezer Labs and malware analysis
+  - [ELF Malware Analysis 101: Linux Threats No Longer an Afterthought](https://www.intezer.com/blog/malware-analysis/elf-malware-analysis-101-linux-threats-no-longer-an-afterthought/)
+  - [ELF Malware Analysis 101 Part 2: Initial Analysis](https://www.intezer.com/blog/malware-analysis/elf-malware-analysis-101-initial-analysis/)
+  - [ELF Malware Analysis 101: Part 3 - Advanced Analysis](https://www.intezer.com/blog/malware-analysis/elf-malware-analysis-101-part-3-advanced-analysis/)
 
 ### ELF header hacks
 
