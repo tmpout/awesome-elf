@@ -32,6 +32,11 @@ Your [contributions](contributing.md) are always welcome !
 
 ### ELF binary format
 
+- Brian Raiter's essays on tiny ELF (1999)
+  - [Guide about creating tiny ELF](https://www.muppetlabs.com/~breadbox/software/tiny/)
+  - [Return 42 collection](https://www.muppetlabs.com/~breadbox/software/tiny/return42.html)
+  - [Usefull tiny programs](https://www.muppetlabs.com/~breadbox/software/tiny/useful.html)
+
 - Bx and the ELF metadata
   - [Returning from ELF to Libc by Bx](https://archive.org/details/Pocorgtfo00/page/n9/mode/1up?view=theater)
   - [“Weird Machines” in ELF by Bx](https://www.usenix.org/system/files/conference/woot13/woot13-shapiro.pdf)
@@ -98,6 +103,7 @@ Your [contributions](contributing.md) are always welcome !
   - [elfcat - ELF visualizer](https://github.com/ruslashev/elfcat)
   - [xELFViewer - ELF file viewer](https://github.com/horsicq/XELFViewer)
   - [lief](https://github.com/lief-project/LIEF)
+
 ### ELF VX technology
 
 - Peter Ferrie and Flibi
