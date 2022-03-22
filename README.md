@@ -88,6 +88,9 @@ Your [contributions](contributing.md) are always welcome !
   - [hidden process /bin/ps](https://github.com/elfmaster/taskverse)
   - [davinci](https://github.com/elfmaster/davinci)
   - [sherlocked](https://github.com/elfmaster/sherlocked)
+ 
+- Amos on ELF packers
+  - [Making your own executable packer - 18 part series](https://fasterthanli.me/series/making-our-own-executable-packer)
 
 - Tools
   - [clodl: self-contained dynamic libraries](https://github.com/tweag/clodl)
@@ -98,6 +101,8 @@ Your [contributions](contributing.md) are always welcome !
   - [elfcat - ELF visualizer](https://github.com/ruslashev/elfcat)
   - [xELFViewer - ELF file viewer](https://github.com/horsicq/XELFViewer)
   - [lief](https://github.com/lief-project/LIEF)
+  - [BioDiff - hex diff viewer](https://github.com/8051Enthusiast/biodiff)
+
 ### ELF VX technology
 
 - Peter Ferrie and Flibi
@@ -139,7 +144,10 @@ Your [contributions](contributing.md) are always welcome !
   - [Saruman - ELF anti-forensics exec](https://github.com/elfmaster/saruman)
   - [AV prototype - 32bit](https://github.com/elfmaster/avu32)
   - [LK rootkit](https://github.com/elfmaster/kprobe_rootkit)
-
+  - 
+- Shane tully on ELF vx
+  - [Writing a Self-Mutating x86_64 C Program](https://shanetully.com/2013/12/writing-a-self-mutating-x86_64-c-program/)
+  - 
 - Intezer Labs and malware analysis
   - [ELF Malware Analysis 101: Linux Threats No Longer an Afterthought](https://www.intezer.com/blog/malware-analysis/elf-malware-analysis-101-linux-threats-no-longer-an-afterthought/)
   - [ELF Malware Analysis 101 Part 2: Initial Analysis](https://www.intezer.com/blog/malware-analysis/elf-malware-analysis-101-initial-analysis/)
@@ -149,6 +157,12 @@ Your [contributions](contributing.md) are always welcome !
 
 ### DWARF stuff
 
+### PROGRAMMING
+
+- [The Art of Assembly Programming Language](https://www.phatcode.net/res/223/files/html/toc.html)
+- [Bit twiddling hacks](https://graphics.stanford.edu/~seander/bithacks.html)
+- [Intel® 64 and IA-32 Instruction Set Reference](https://namazso.github.io/x86/)
+- 
 ### MISC
 
 - [vx-underground heaven](https://www.vx-underground.org/archive/VxHeaven/lib/vsp44.html)
