@@ -98,6 +98,7 @@ Your [contributions](contributing.md) are always welcome !
   - [elfcat - ELF visualizer](https://github.com/ruslashev/elfcat)
   - [xELFViewer - ELF file viewer](https://github.com/horsicq/XELFViewer)
   - [lief](https://github.com/lief-project/LIEF)
+
 ### ELF VX technology
 
 - Peter Ferrie and Flibi
@@ -163,8 +164,8 @@ Your [contributions](contributing.md) are always welcome !
 - [Architecture Spanning Shellcode](http://phrack.org/issues/57/14.html#article)
 - [Doublethink – 8-Architecture Assembly Polyglot](https://www.robertxiao.ca/hacking/defcon2018-assembly-polyglot/)
 
-# Linker Script Tutorials:
+### Linker Script Tutorials
 
+- [Everything You Never Wanted To Know About Linker Script](https://mcyoung.xyz/2021/06/01/linker-script/)
 - [Linker Script Guide](https://www.phaedsys.com/principals/emprog/emprogdata/thunderbench-Linker-Script-guide.pdf)
 - [Most Commented Linker Script in the World](https://blog.thea.codes/the-most-thoroughly-commented-linker-script/)
-- [Everything You Never Wanted To Know About Linker Script](https://mcyoung.xyz/2021/06/01/linker-script/)
