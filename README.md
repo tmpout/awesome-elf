@@ -169,3 +169,8 @@ Your [contributions](contributing.md) are always welcome !
 - [Doublethink – 8-Architecture Assembly Polyglot](https://www.robertxiao.ca/hacking/defcon2018-assembly-polyglot/)
 - [tweetable-polyglot-png](https://github.com/DavidBuchanan314/tweetable-polyglot-png)
 
+### Linker Script Tutorials
+
+- [Everything You Never Wanted To Know About Linker Script](https://mcyoung.xyz/2021/06/01/linker-script/)
+- [Linker Script Guide](https://www.phaedsys.com/principals/emprog/emprogdata/thunderbench-Linker-Script-guide.pdf)
+- [Most Commented Linker Script in the World](https://blog.thea.codes/the-most-thoroughly-commented-linker-script/)
