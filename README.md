@@ -36,6 +36,11 @@ Your [contributions](contributing.md) are always welcome !
   - [Interactive Exploration of the Process of Linking Executables](https://github.com/Eteru/Elf-Detective---Bachelor-Paper/blob/master/thesis.pdf)
   - [ELF_Detective](https://github.com/Eteru/ELF-Detective)
 
+- Brian Raiter's essays on tiny ELF (1999)
+  - [Guide about creating tiny ELF](https://www.muppetlabs.com/~breadbox/software/tiny/)
+  - [Return 42 collection](https://www.muppetlabs.com/~breadbox/software/tiny/return42.html)
+  - [Usefull tiny programs](https://www.muppetlabs.com/~breadbox/software/tiny/useful.html)
+
 - Bx and the ELF metadata
   - [Returning from ELF to Libc by Bx](https://archive.org/details/Pocorgtfo00/page/n9/mode/1up?view=theater)
   - [“Weird Machines” in ELF by Bx](https://www.usenix.org/system/files/conference/woot13/woot13-shapiro.pdf)
