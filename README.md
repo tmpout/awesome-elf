@@ -97,6 +97,9 @@ Your [contributions](contributing.md) are always welcome !
 - Tools
   - [clodl: self-contained dynamic libraries](https://github.com/tweag/clodl)
   - [elfcat - ELF visualizer](https://github.com/ruslashev/elfcat)
+  - [Embuche - Anti reverse compiling tool](https://github.com/magnussen7/Embuche)
+  - [Hellf - ELF patching lib in Python](https://github.com/0xswitch/Hellf)
+  - [Hexyl - hexdumper with colors](https://github.com/sharkdp/hexyl)
   - [lief](https://github.com/lief-project/LIEF)
   - [Macaw - binary analysis framework(ELF/DWARF/more)](https://github.com/GaloisInc/macaw)
   - [PatchELF - a simple utility for modifying existing ELF executables and libraries](https://github.com/NixOS/patchelf)
