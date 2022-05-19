@@ -157,6 +157,7 @@ Your [contributions](contributing.md) are always welcome !
 
 ### MISC
 
+- [vxer.io (vxheaven successor)](https://vxer.io/)
 - [ANSIWAVE BBS](https://ansiwave.net/)
 - [PageBuster](https://rev.ng/blog/pagebuster/post.html)
 - [vx-underground heaven](https://www.vx-underground.org/archive/VxHeaven/lib/vsp44.html)
