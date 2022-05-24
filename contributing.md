@@ -8,10 +8,11 @@ If you see your work cited here and would like us to credit in a more specific w
 
 ## Table of Content
 
-- [ELF binary format](#ELF-binary-format)
-- [ELF VX technology](#ELF-VX-technology)
-- [ELF header hacks](#ELF-header-hacks)
-- [DWARF stuff](#DWARF-stuff)
+- [ELF binary format](README.md#ELF-binary-format)
+- [ELF VX technology](README.md#ELF-VX-technology)
+- [ELF header hacks](README.md#ELF-header-hacks)
+- [Programming](README.md#Programming)
+- [DWARF stuff](README.md#DWARF-stuff)
 
 ## Adding stuff to the List
 
