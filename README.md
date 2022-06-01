@@ -32,6 +32,9 @@ Your [contributions](contributing.md) are always welcome !
 
 ### ELF binary format
 
+- Amos on ELF packers
+  - [Making your own executable packer - 18 part series](https://fasterthanli.me/series/making-our-own-executable-packer)
+
 - Aprodu Andrei Ciprian and ELF linking process
   - [Interactive Exploration of the Process of Linking Executables](https://github.com/Eteru/Elf-Detective---Bachelor-Paper/blob/master/thesis.pdf)
   - [ELF_Detective](https://github.com/Eteru/ELF-Detective)
@@ -95,6 +98,7 @@ Your [contributions](contributing.md) are always welcome !
   - [On ELF, Part 2](https://kestrelcomputer.github.io/kestrel/2018/02/01/on-elf-2)
 
 - Tools
+  - [BioDiff - hex diff viewer](https://github.com/8051Enthusiast/biodiff)
   - [clodl: self-contained dynamic libraries](https://github.com/tweag/clodl)
   - [elfcat - ELF visualizer](https://github.com/ruslashev/elfcat)
   - [Embuche - Anti reverse compiling tool](https://github.com/magnussen7/Embuche)
@@ -130,6 +134,9 @@ Your [contributions](contributing.md) are always welcome !
   - [FLIBI: EVOLUTION](http://pferrie.epizy.com/papers/flibi2.pdf?i=1)
   - [FLIBI: RELOADED](http://pferrie.epizy.com/papers/flibi3.pdf)
 
+- Shane tully on ELF vx
+  - [Writing a Self-Mutating x86_64 C Program](https://shanetully.com/2013/12/writing-a-self-mutating-x86_64-c-program/) 
+
 - Shreyansh Singh and ELF-Miner
   - [Paper: ELF-Miner: using structural knowledge and data mining methods to detect new (Linux) malicious executables](https://link.springer.com/article/10.1007/s10115-011-0393-5)
   - [Code](https://github.com/shreyansh26/ELF-Miner)
@@ -158,6 +165,12 @@ Your [contributions](contributing.md) are always welcome !
 
 ### DWARF stuff
 
+### PROGRAMMING
+
+- [The Art of Assembly Programming Language](https://www.phatcode.net/res/223/files/html/toc.html)
+- [Bit twiddling hacks](https://graphics.stanford.edu/~seander/bithacks.html)
+- [Intel® 64 and IA-32 Instruction Set Reference](https://namazso.github.io/x86/)
+- 
 ### MISC
 
 - [vxer.io (vxheaven successor)](https://vxer.io/)
