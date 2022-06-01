@@ -100,6 +100,7 @@ Your [contributions](contributing.md) are always welcome !
 - Tools
   - [BioDiff - hex diff viewer](https://github.com/8051Enthusiast/biodiff)
   - [clodl: self-contained dynamic libraries](https://github.com/tweag/clodl)
+  - [d0zer](https://github.com/sad0p/d0zer)
   - [elfcat - ELF visualizer](https://github.com/ruslashev/elfcat)
   - [Embuche - Anti reverse compiling tool](https://github.com/magnussen7/Embuche)
   - [Hellf - ELF patching lib in Python](https://github.com/0xswitch/Hellf)
