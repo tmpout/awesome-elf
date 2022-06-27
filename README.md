@@ -107,6 +107,7 @@ Your [contributions](contributing.md) are always welcome !
   - [lief](https://github.com/lief-project/LIEF)
   - [Macaw - binary analysis framework(ELF/DWARF/more)](https://github.com/GaloisInc/macaw)
   - [PatchELF - a simple utility for modifying existing ELF executables and libraries](https://github.com/NixOS/patchelf)
+  - [PLTHook - utility library to hook library function calls](https://github.com/kubo/plthook)
   - [StaticX ](https://github.com/JonathonReinhart/staticx)
   - [The Backdoor Factory](https://github.com/Binject/backdoorfactory)
   - [xELFViewer - ELF file viewer](https://github.com/horsicq/XELFViewer)
