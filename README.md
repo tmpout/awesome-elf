@@ -171,6 +171,7 @@ Your [contributions](contributing.md) are always welcome !
 - [Bit twiddling hacks](https://graphics.stanford.edu/~seander/bithacks.html)
 - [Intel® 64 and IA-32 Instruction Set Reference](https://namazso.github.io/x86/)
 - [System call reference tables for x86, x64, arm and arm64](https://syscall.sh)
+- [API for system call references for x86, x64, arm and arm64](https://api.syscall.sh/swagger/index.html)
  
 ### MISC
 
