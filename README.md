@@ -115,6 +115,16 @@ Your [contributions](contributing.md) are always welcome !
 
 ### ELF VX technology
 
+- TMZ
+  - [Linux.Midrashim: Assembly x64 ELF virus](https://www.guitmz.com/linux-midrashim-elf-virus/)
+  - [Linux.Nasty: Assembly x64 ELF virus](https://www.guitmz.com/linux-nasty-elf-virus/)
+  - [Ezuri: Linux ELF Runtime Crypter](https://www.guitmz.com/linux-elf-runtime-crypter/)
+  - [Running ELF executables from memory](https://www.guitmz.com/running-elf-from-memory/)
+  - [Linux.Fe2O3: a Rust virus](https://www.guitmz.com/linux-fe2o3-rust-virus/)
+  - [Linux.Cephei: a Nim virus](https://www.guitmz.com/linux-cephei-a-nim-virus/)
+  - [Linux.Liora: a Go virus](https://www.guitmz.com/linux-liora/)
+  - [Linux.Zariche: a Vala virus](https://www.guitmz.com/vala-virus/)
+
 - elfmaster and ELF vx
   - [Devestating and awesome Linux X86_64 ELF Virus](https://github.com/elfmaster/skeksi_virus)
   - [ELF Shared library injector using DT_NEEDED precedence infection](https://github.com/elfmaster/dt_infect)
