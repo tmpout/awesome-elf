@@ -108,6 +108,7 @@ Your [contributions](contributing.md) are always welcome !
   - [lief](https://github.com/lief-project/LIEF)
   - [Macaw - binary analysis framework(ELF/DWARF/more)](https://github.com/GaloisInc/macaw)
   - [PatchELF - a simple utility for modifying existing ELF executables and libraries](https://github.com/NixOS/patchelf)
+  - [PLTHook - utility library to hook library function calls](https://github.com/kubo/plthook)
   - [StaticX ](https://github.com/JonathonReinhart/staticx)
   - [The Backdoor Factory](https://github.com/Binject/backdoorfactory)
   - [xELFViewer - ELF file viewer](https://github.com/horsicq/XELFViewer)
@@ -171,7 +172,9 @@ Your [contributions](contributing.md) are always welcome !
 - [The Art of Assembly Programming Language](https://www.phatcode.net/res/223/files/html/toc.html)
 - [Bit twiddling hacks](https://graphics.stanford.edu/~seander/bithacks.html)
 - [Intel® 64 and IA-32 Instruction Set Reference](https://namazso.github.io/x86/)
-- 
+- [System call reference tables for x86, x64, arm and arm64](https://syscall.sh)
+- [API for system call references for x86, x64, arm and arm64](https://api.syscall.sh/swagger/index.html)
+ 
 ### MISC
 
 - [vxer.io (vxheaven successor)](https://vxer.io/)
