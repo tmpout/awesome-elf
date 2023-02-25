@@ -51,6 +51,9 @@ Your [contributions](contributing.md) are always welcome !
 - David Smith and Handmade ELFs
   - [Handmade Linux x86 executables](https://youtube.com/playlist?list=PLZCIHSjpQ12woLj0sjsnqDH8yVuXwTy3p)
 
+- Robin Hoksbergen and Manually Creating An ELF
+  - [Manually Creating An ELF Executable](https://web.archive.org/web/20140130143820/http://www.robinhoksbergen.com/papers/howto_elf.html)
+
 - elfmaster and everything about ELF
   - [ELF shared library injection forensics](https://engineering.backtrace.io/2016-04-14-elf-shared-library-injection-forensics/)
   - [Secure ELF parsing/loading library](https://github.com/elfmaster/libelfmaster)
