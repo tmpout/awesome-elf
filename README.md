@@ -51,7 +51,7 @@ Your [contributions](contributing.md) are always welcome !
 - David Smith and Handmade ELFs
   - [Handmade Linux x86 executables](https://youtube.com/playlist?list=PLZCIHSjpQ12woLj0sjsnqDH8yVuXwTy3p)
 
-- Robin Hokdbergen and Manually Creating An ELF
+- Robin Hoksbergen and Manually Creating An ELF
   - [Manually Creating An ELF Executable](https://web.archive.org/web/20140130143820/http://www.robinhoksbergen.com/papers/howto_elf.html)
 
 - elfmaster and everything about ELF
