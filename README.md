@@ -187,6 +187,7 @@ Your [contributions](contributing.md) are always welcome !
 - [Intel® 64 and IA-32 Instruction Set Reference](https://namazso.github.io/x86/)
 - [System call reference tables for x86, x64, arm and arm64](https://syscall.sh)
 - [API for system call references for x86, x64, arm and arm64](https://api.syscall.sh/swagger/index.html)
+- [Writing C software without the standard library \[Linux Edition\] - Franc\[e\]sco's Gopherspace](https://gist.github.com/tcoppex/443d1dd45f873d96260195d6431b0989)
  
 ### MISC
 
