@@ -51,6 +51,9 @@ Your [contributions](contributing.md) are always welcome !
 - David Smith and Handmade ELFs
   - [Handmade Linux x86 executables](https://youtube.com/playlist?list=PLZCIHSjpQ12woLj0sjsnqDH8yVuXwTy3p)
 
+- Robin Hoksbergen and Manually Creating An ELF
+  - [Manually Creating An ELF Executable](https://web.archive.org/web/20140130143820/http://www.robinhoksbergen.com/papers/howto_elf.html)
+
 - elfmaster and everything about ELF
   - [ELF shared library injection forensics](https://engineering.backtrace.io/2016-04-14-elf-shared-library-injection-forensics/)
   - [Secure ELF parsing/loading library](https://github.com/elfmaster/libelfmaster)
@@ -100,6 +103,7 @@ Your [contributions](contributing.md) are always welcome !
 - Tools
   - [BioDiff - hex diff viewer](https://github.com/8051Enthusiast/biodiff)
   - [clodl: self-contained dynamic libraries](https://github.com/tweag/clodl)
+  - [d0zer - ELF infector written in Go](https://github.com/sad0p/d0zer)
   - [elfcat - ELF visualizer](https://github.com/ruslashev/elfcat)
   - [Embuche - Anti reverse compiling tool](https://github.com/magnussen7/Embuche)
   - [Hellf - ELF patching lib in Python](https://github.com/0xswitch/Hellf)
@@ -113,6 +117,16 @@ Your [contributions](contributing.md) are always welcome !
   - [xELFViewer - ELF file viewer](https://github.com/horsicq/XELFViewer)
 
 ### ELF VX technology
+
+- TMZ
+  - [Linux.Midrashim: Assembly x64 ELF virus](https://www.guitmz.com/linux-midrashim-elf-virus/)
+  - [Linux.Nasty: Assembly x64 ELF virus](https://www.guitmz.com/linux-nasty-elf-virus/)
+  - [Ezuri: Linux ELF Runtime Crypter](https://www.guitmz.com/linux-elf-runtime-crypter/)
+  - [Running ELF executables from memory](https://www.guitmz.com/running-elf-from-memory/)
+  - [Linux.Fe2O3: a Rust virus](https://www.guitmz.com/linux-fe2o3-rust-virus/)
+  - [Linux.Cephei: a Nim virus](https://www.guitmz.com/linux-cephei-a-nim-virus/)
+  - [Linux.Liora: a Go virus](https://www.guitmz.com/linux-liora/)
+  - [Linux.Zariche: a Vala virus](https://www.guitmz.com/vala-virus/)
 
 - elfmaster and ELF vx
   - [Devestating and awesome Linux X86_64 ELF Virus](https://github.com/elfmaster/skeksi_virus)
