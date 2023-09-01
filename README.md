@@ -100,6 +100,28 @@ Your [contributions](contributing.md) are always welcome !
   - [On ELF, Part 1](https://kestrelcomputer.github.io/kestrel/2018/01/29/on-elf)
   - [On ELF, Part 2](https://kestrelcomputer.github.io/kestrel/2018/02/01/on-elf-2)
 
+- [Linux Foundation Referenced Specifications](https://refspecs.linuxbase.org)
+
+- Keith Makan ELF Format Series
+  - [Introduction to the ELF Format : The ELF Header (Part I)](https:
+    //blog.k3170makan.com/2018/09/introduction-to-elf-format-elf-header.html)
+  - [Introduction to the ELF Format Part II : Understanding Program Headers ](https:
+    //blog.k3170makan.com/2018/09/introduction-to-elf-format-part-ii.html)
+  - [Introduction to the ELF File Format (Part III) : The Section Headers](https:
+    //blog.k3170makan.com/2018/09/introduction-to-elf-file-format-part.html)
+  - [Introduction to The ELF Format (Part IV): Exploring Section Types and
+    Special Sections](https:
+    //blog.k3170makan.com/2018/10/introduction-to-elf-format-part-iv.html)
+  - [Introduction to the ELF Format (Part V) : Understanding C start up .init_array and .fini_array sections](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-v.html)
+  - [Introduction to the ELF Format (Part VI) : The Symbol Table and Relocations (Part 1)](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi.html)
+  - [Introduction to The ELF Format (Part VI): The Symbol Table and Relocations
+    (Part 2)](https:
+    //blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi_18.html)
+  - [Introduction to the ELF Format (Part VI) : More Relocation tricks - r_addend execution (Part 3)](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi-more.html)
+  - [Introduction to the ELF Format (Part VII): Dynamic Linking / Loading and
+    the .dynamic section](https://blog.k3170makan.com/2018/11/introduction-to-elf-format-part-vii.html)
+ - [charngda ELF Format reference (mirror)](https://stevens.netmeister.org/631/elf.html)
+
 - Tools
   - [BioDiff - hex diff viewer](https://github.com/8051Enthusiast/biodiff)
   - [clodl: self-contained dynamic libraries](https://github.com/tweag/clodl)
@@ -115,6 +137,10 @@ Your [contributions](contributing.md) are always welcome !
   - [StaticX ](https://github.com/JonathonReinhart/staticx)
   - [The Backdoor Factory](https://github.com/Binject/backdoorfactory)
   - [xELFViewer - ELF file viewer](https://github.com/horsicq/XELFViewer)
+  - [pyelftools - Parsing ELF and DWARF in Python](https://github.com/eliben/pyelftools)
+  - [GNU poke - an interactive, extensible editor for binary data](https://jemarch.net/poke)
+  - [fq - jq for binary formats](https://github.com/wader/fq)
+  - [ImHex - a hex editor for reverse engineers](https://github.com/WerWolv/ImHex)
 
 ### ELF VX technology
 
@@ -135,6 +161,9 @@ Your [contributions](contributing.md) are always welcome !
   - [Saruman - ELF anti-forensics exec](https://github.com/elfmaster/saruman)
   - [AV prototype - 32bit](https://github.com/elfmaster/avu32)
   - [LK rootkit](https://github.com/elfmaster/kprobe_rootkit)
+  - Shiva micropatching system
+    - [About Shiva](https://arcana-research.io/shiva/)
+    - [Source](https://github.com/advanced-microcode-patching/shiva)
 
 - Intezer Labs and malware analysis
   - [ELF Malware Analysis 101: Linux Threats No Longer an Afterthought](https://www.intezer.com/blog/malware-analysis/elf-malware-analysis-101-linux-threats-no-longer-an-afterthought/)
@@ -150,7 +179,7 @@ Your [contributions](contributing.md) are always welcome !
   - [FLIBI: RELOADED](http://pferrie.epizy.com/papers/flibi3.pdf)
 
 - Shane tully on ELF vx
-  - [Writing a Self-Mutating x86_64 C Program](https://shanetully.com/2013/12/writing-a-self-mutating-x86_64-c-program/) 
+  - [Writing a Self-Mutating x86_64 C Program](https://shanetully.com/2013/12/writing-a-self-mutating-x86_64-c-program/)
 
 - Shreyansh Singh and ELF-Miner
   - [Paper: ELF-Miner: using structural knowledge and data mining methods to detect new (Linux) malicious executables](https://link.springer.com/article/10.1007/s10115-011-0393-5)
@@ -175,10 +204,36 @@ Your [contributions](contributing.md) are always welcome !
 - [(nearly) Complete Linux Loadable Kernel Modules](http://www.ouah.org/LKM_HACKING.html)
 - [Reflections on Trusting Trust](https://www.cs.cmu.edu/~rdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf)
 - [Static linked ELF infecting](https://packetstormsecurity.com/files/34013/0x4553-Static_Infecting.html.html)
+- PoC executable packer that does not use any custom code to unpack binaries at execution time
+  - [Locreate: An Anagram for Relocate](http://uninformed.org/?v=all&a=30&t=txt)
+- perljam.pl: A Perl x64 ELF virus by isra
+  - [Writeup](https://hckng.org/articles/perljam-elf64-virus.html)
+  - [Source code](https://github.com/ilv/vx/blob/main/perljam.pl)
+- [stelf-loader: stealthy ELF loader - no files, no execve, no RWX](https:
+  //github.com/DavidBuchanan314/stelf-loader)
+- [DDexec: run binaries filelessly and stealthily on Linux by overwriting the
+  shell's process with another](https://github.com/arget13/DDexec)
+- [Griffiths - Binary Protection Schemes](https://bitlackeys.org/papers/BinaryProtectionSchemes59.pdf)
+- [KoviD kernel rootkit](https://github.com/carloslack/KoviD)
+- [Offensive capabilities of eBPF and implementation of a rootkit](https:
+  //raw.githubusercontent.com/h3xduck/TripleCross/master/docs/ebpf_offensive_rootkit_tfg.pdf)
+- [debugoff - linux anti-debugging and anti-analysis rust library](https://github.com/0xor0ne/debugoff)
 
 ### ELF header hacks
 
 ### DWARF stuff
+- [dwarf-writer](https://github.com/immunant/dwarf-writer)
+- [gimli - a library for reading and writing the DWARF debugging format](https://docs.rs/gimli/latest/gimli/)
+- [The Almighty DWARF: A Trojan Horse for Program Analysis, Verification, and Recompilation](https://www.philipzucker.com/dwarf-patching/)
+
+### DWARF Alternatives
+- Compact C Type Format
+ - [The Compact C Type Format in the GNU toolchain](https://lwn.net/Articles/795384/)
+ - [The CTF File Format](https://raw.githubusercontent.com/wiki/oracle/binutils-gdb/files/ctf-spec.pdf)
+
+- Oops Rewind Capability (ORC)
+ - [The ORCs are coming!](https://lwn.net/Articles/728339/)
+ - [ORC unwinder](https://www.kernel.org/doc/html/next/x86/orc-unwinder.html)
 
 ### PROGRAMMING
 
@@ -188,7 +243,22 @@ Your [contributions](contributing.md) are always welcome !
 - [System call reference tables for x86, x64, arm and arm64](https://syscall.sh)
 - [API for system call references for x86, x64, arm and arm64](https://api.syscall.sh/swagger/index.html)
 - [Writing C software without the standard library \[Linux Edition\] - Franc\[e\]sco's Gopherspace](https://gist.github.com/tcoppex/443d1dd45f873d96260195d6431b0989)
- 
+
+### Reverse Engineering and Detection
+- [Ghidra Patch Diffing](https:
+  //cve-north-stars.github.io/docs/Ghidra-Patch-Diffing)
+- [drgn - a powerful and flexible debugger](https:
+  //blogs.oracle.com/linux/post/enter-the-drgn)
+- [Towards Optimal Use of Exception Handling Information for Function Detection](https://arxiv.org/pdf/2104.03168.pdf)
+- [Reverse Engineering Ebpfkit Rootkit With BlackBerry's Enhanced IDA Processor
+  Tool](https://blogs.blackberry.com/en/2021/12/reverse-engineering-ebpfkit-rootkit-with-blackberrys-free-ida-pro
+cessor-tool)
+- [UPX Recovery Tool](https://github.com/NozomiNetworks/upx-recovery-tool)
+- [Userland rootkits are lame](https:
+  //grugq.substack.com/p/userland-rootkits-are-lame)
+- [OrBit: New Undetected Linux Threat Uses Unique Hijack of Execution Flow](https:
+  //intezer.com/blog/incident-response/orbit-new-undetected-linux-threat/)
+
 ### MISC
 
 - [vxer.io (vxheaven successor)](https://vxer.io/)
@@ -196,6 +266,10 @@ Your [contributions](contributing.md) are always welcome !
 - [PageBuster](https://rev.ng/blog/pagebuster/post.html)
 - [vx-underground heaven](https://www.vx-underground.org/archive/VxHeaven/lib/vsp44.html)
 - [WIZARD BIBLE (in Japanese)](https://wizardbible.github.io/)
+- [Second Part To Hell](https://github.com/SPTHvx/SPTH)
+- [Lotus 1-2-3 for Linux](https://lock.cmpxchg8b.com/linux123.html)
+- [Linux x86 Program Start Up or - How the heck do we get to main()?](http:
+  //dbp-consulting.com/tutorials/debugging/linuxProgramStartup.html)
 
 ### Polyglots
 
