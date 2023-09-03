@@ -51,9 +51,6 @@ Your [contributions](contributing.md) are always welcome !
 - David Smith and Handmade ELFs
   - [Handmade Linux x86 executables](https://youtube.com/playlist?list=PLZCIHSjpQ12woLj0sjsnqDH8yVuXwTy3p)
 
-- Robin Hoksbergen and Manually Creating An ELF
-  - [Manually Creating An ELF Executable](https://web.archive.org/web/20140130143820/http://www.robinhoksbergen.com/papers/howto_elf.html)
-
 - elfmaster and everything about ELF
   - [ELF shared library injection forensics](https://engineering.backtrace.io/2016-04-14-elf-shared-library-injection-forensics/)
   - [Secure ELF parsing/loading library](https://github.com/elfmaster/libelfmaster)
@@ -78,6 +75,20 @@ Your [contributions](contributing.md) are always welcome !
   - [How to execute an object file: Part 2](https://blog.cloudflare.com/how-to-execute-an-object-file-part-2/)
   - [How to execute an object file: Part 3](https://blog.cloudflare.com/how-to-execute-an-object-file-part-3/)
 
+- Keith Makan ELF Format Series
+  - [Introduction to the ELF Format (Part I): The ELF Header](https://blog.k3170makan.com/2018/09/introduction-to-elf-format-elf-header.html)
+  - [Introduction to the ELF Format (Part II): Understanding Program Headers](https://blog.k3170makan.com/2018/09/introduction-to-elf-format-part-ii.html)
+  - [Introduction to the ELF Format (Part III): The Section Headers](https://blog.k3170makan.com/2018/09/introduction-to-elf-file-format-part.html)
+  - [Introduction to the ELF Format (Part IV): Exploring Section Types and Special Sections](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-iv.html)
+  - [Introduction to the ELF Format (Part V): Understanding C start up .init_array and .fini_array sections](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-v.html)
+  - [Introduction to the ELF Format (Part VI): The Symbol Table and Relocations (1)](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi.html)
+  - [Introduction to the ELF Format (Part VI): The Symbol Table and Relocations (2)](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi_18.html)
+  - [Introduction to the ELF Format (Part VI): More Relocation tricks - r_addend execution (3)](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi-more.html)
+  - [Introduction to the ELF Format (Part VII): Dynamic Linking / Loading and the .dynamic section](https://blog.k3170makan.com/2018/11/introduction-to-elf-format-part-vii.html)
+ - [charngda ELF Format reference (mirror)](https://stevens.netmeister.org/631/elf.html)
+
+- [Linux Foundation Referenced Specifications](https://refspecs.linuxbase.org)
+
 - Manu Garg and ELF Auxiliary Vectors
   - [About ELF Auxiliary Vectors](https://articles.manugarg.com/aboutelfauxiliaryvectors.html)
 
@@ -96,23 +107,12 @@ Your [contributions](contributing.md) are always welcome !
 - Patrick Horgan and main()
   - [How the heck do we get to main()?](http://dbp-consulting.com/tutorials/debugging/linuxProgramStartup.html)
 
+- Robin Hoksbergen and Manually Creating An ELF
+  - [Manually Creating An ELF Executable](https://web.archive.org/web/20140130143820/http://www.robinhoksbergen.com/papers/howto_elf.html)
+
 - Samuel A. Falvo II and ELF
   - [On ELF, Part 1](https://kestrelcomputer.github.io/kestrel/2018/01/29/on-elf)
   - [On ELF, Part 2](https://kestrelcomputer.github.io/kestrel/2018/02/01/on-elf-2)
-
-- [Linux Foundation Referenced Specifications](https://refspecs.linuxbase.org)
-
-- Keith Makan ELF Format Series
-  - [Introduction to the ELF Format (Part I): The ELF Header](https://blog.k3170makan.com/2018/09/introduction-to-elf-format-elf-header.html)
-  - [Introduction to the ELF Format (Part II): Understanding Program Headers](https://blog.k3170makan.com/2018/09/introduction-to-elf-format-part-ii.html)
-  - [Introduction to the ELF Format (Part III): The Section Headers](https://blog.k3170makan.com/2018/09/introduction-to-elf-file-format-part.html)
-  - [Introduction to the ELF Format (Part IV): Exploring Section Types and Special Sections](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-iv.html)
-  - [Introduction to the ELF Format (Part V): Understanding C start up .init_array and .fini_array sections](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-v.html)
-  - [Introduction to the ELF Format (Part VI): The Symbol Table and Relocations (1)](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi.html)
-  - [Introduction to the ELF Format (Part VI): The Symbol Table and Relocations (2)](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi_18.html)
-  - [Introduction to the ELF Format (Part VI): More Relocation tricks - r_addend execution (3)](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi-more.html)
-  - [Introduction to the ELF Format (Part VII): Dynamic Linking / Loading and the .dynamic section](https://blog.k3170makan.com/2018/11/introduction-to-elf-format-part-vii.html)
- - [charngda ELF Format reference (mirror)](https://stevens.netmeister.org/631/elf.html)
 
 - Tools
   - [BioDiff - hex diff viewer](https://github.com/8051Enthusiast/biodiff)
