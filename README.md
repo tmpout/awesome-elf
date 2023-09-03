@@ -103,14 +103,14 @@ Your [contributions](contributing.md) are always welcome !
 - [Linux Foundation Referenced Specifications](https://refspecs.linuxbase.org)
 
 - Keith Makan ELF Format Series
-  - [Introduction to the ELF Format : The ELF Header (Part I)](https://blog.k3170makan.com/2018/09/introduction-to-elf-format-elf-header.html)
-  - [Introduction to the ELF Format Part II : Understanding Program Headers ](https://blog.k3170makan.com/2018/09/introduction-to-elf-format-part-ii.html)
-  - [Introduction to the ELF File Format (Part III) : The Section Headers](https://blog.k3170makan.com/2018/09/introduction-to-elf-file-format-part.html)
-  - [Introduction to The ELF Format (Part IV): Exploring Section Types and Special Sections](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-iv.html)
-  - [Introduction to the ELF Format (Part V) : Understanding C start up .init_array and .fini_array sections](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-v.html)
-  - [Introduction to the ELF Format (Part VI) : The Symbol Table and Relocations (Part 1)](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi.html)
-  - [Introduction to The ELF Format (Part VI): The Symbol Table and Relocations (Part 2)](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi_18.html)
-  - [Introduction to the ELF Format (Part VI) : More Relocation tricks - r_addend execution (Part 3)](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi-more.html)
+  - [Introduction to the ELF Format (Part I): The ELF Header](https://blog.k3170makan.com/2018/09/introduction-to-elf-format-elf-header.html)
+  - [Introduction to the ELF Format (Part II): Understanding Program Headers](https://blog.k3170makan.com/2018/09/introduction-to-elf-format-part-ii.html)
+  - [Introduction to the ELF Format (Part III): The Section Headers](https://blog.k3170makan.com/2018/09/introduction-to-elf-file-format-part.html)
+  - [Introduction to the ELF Format (Part IV): Exploring Section Types and Special Sections](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-iv.html)
+  - [Introduction to the ELF Format (Part V): Understanding C start up .init_array and .fini_array sections](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-v.html)
+  - [Introduction to the ELF Format (Part VI): The Symbol Table and Relocations (1)](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi.html)
+  - [Introduction to the ELF Format (Part VI): The Symbol Table and Relocations (2)](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi_18.html)
+  - [Introduction to the ELF Format (Part VI): More Relocation tricks - r_addend execution (3)](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi-more.html)
   - [Introduction to the ELF Format (Part VII): Dynamic Linking / Loading and the .dynamic section](https://blog.k3170makan.com/2018/11/introduction-to-elf-format-part-vii.html)
  - [charngda ELF Format reference (mirror)](https://stevens.netmeister.org/631/elf.html)
 
@@ -157,15 +157,6 @@ Your [contributions](contributing.md) are always welcome !
     - [About Shiva](https://arcana-research.io/shiva/)
     - [Source](https://github.com/advanced-microcode-patching/shiva)
 
-- Intezer Labs and malware analysis
-  - [ELF Malware Analysis 101: Linux Threats No Longer an Afterthought](https://www.intezer.com/blog/malware-analysis/elf-malware-analysis-101-linux-threats-no-longer-an-afterthought/)
-  - [ELF Malware Analysis 101 Part 2: Initial Analysis](https://www.intezer.com/blog/malware-analysis/elf-malware-analysis-101-initial-analysis/)
-  - [ELF Malware Analysis 101: Part 3 - Advanced Analysis](https://www.intezer.com/blog/malware-analysis/elf-malware-analysis-101-part-3-advanced-analysis/)
-
-- Lucas Galante + Marcus Botacin and (malware/goodware) binary classification
-  - [Forseti](https://github.com/marcusbotacin/ELF.Classifier)
-  - [Machine Learning for Malware Detection](https://github.com/marcusbotacin/ELF.Classifier/blob/master/paper/classifier.pdf)
-
 - Peter Ferrie and Flibi
   - [FLIBI: EVOLUTION](http://pferrie.epizy.com/papers/flibi2.pdf?i=1)
   - [FLIBI: RELOADED](http://pferrie.epizy.com/papers/flibi3.pdf)
@@ -189,7 +180,6 @@ Your [contributions](contributing.md) are always welcome !
   - [Linux Rootkits Part 9: Hiding Logged In Users (Modifying File Contents Without Touching Disk)](https://xcellerator.github.io/posts/linux_rootkits_09/)
   - [Fancy Bear’s a Lumberjack and It’s Okay - A Dive into the Kernel Component of Drovorub](https://xcellerator.github.io/posts/linux_rootkits_10/)
   - [Linux Rootkits: New Methods for Kernel 5.7+](https://xcellerator.github.io/posts/linux_rootkits_11/)
-
 - [Becoming a rat in your system](https://devilinside.me/blogs/becoming-rat-your-system)
 - [Kernel mode hooking [EN]](https://is.muni.cz/el/fi/jaro2011/PV204/um/LinuxRootkits/sys_call_table_complete.htm)
 - [Last Digital Common Ancestor (LDCA)](https://github.com/mertyildiran/ldca/blob/master/linux_x86/dev.asm)
@@ -202,8 +192,7 @@ Your [contributions](contributing.md) are always welcome !
   - [Writeup](https://hckng.org/articles/perljam-elf64-virus.html)
   - [Source code](https://github.com/ilv/vx/blob/main/perljam.pl)
 - [stelf-loader: stealthy ELF loader - no files, no execve, no RWX](https://github.com/DavidBuchanan314/stelf-loader)
-- [DDexec: run binaries filelessly and stealthily on Linux by overwriting the
-  shell's process with another](https://github.com/arget13/DDexec)
+- [DDexec: run binaries filelessly and stealthily on Linux by overwriting the shell's process with another](https://github.com/arget13/DDexec)
 - [Griffiths - Binary Protection Schemes](https://bitlackeys.org/papers/BinaryProtectionSchemes59.pdf)
 - [KoviD kernel rootkit](https://github.com/carloslack/KoviD)
 - [Offensive capabilities of eBPF and implementation of a rootkit](https://raw.githubusercontent.com/h3xduck/TripleCross/master/docs/ebpf_offensive_rootkit_tfg.pdf)
@@ -237,6 +226,13 @@ Your [contributions](contributing.md) are always welcome !
 
 ### Reverse Engineering and Detection
 
+- Intezer Labs and malware analysis
+  - [ELF Malware Analysis 101 Part 1: Linux Threats No Longer an Afterthought](https://www.intezer.com/blog/malware-analysis/elf-malware-analysis-101-linux-threats-no-longer-an-afterthought/)
+  - [ELF Malware Analysis 101 Part 2: Initial Analysis](https://www.intezer.com/blog/malware-analysis/elf-malware-analysis-101-initial-analysis/)
+  - [ELF Malware Analysis 101 Part 3: Advanced Analysis](https://www.intezer.com/blog/malware-analysis/elf-malware-analysis-101-part-3-advanced-analysis/)
+- Lucas Galante + Marcus Botacin and (malware/goodware) binary classification
+  - [Forseti](https://github.com/marcusbotacin/ELF.Classifier)
+  - [Machine Learning for Malware Detection](https://github.com/marcusbotacin/ELF.Classifier/blob/master/paper/classifier.pdf)
 - [Ghidra Patch Diffing](https://cve-north-stars.github.io/docs/Ghidra-Patch-Diffing)
 - [drgn - a powerful and flexible debugger](https://blogs.oracle.com/linux/post/enter-the-drgn)
 - [Towards Optimal Use of Exception Handling Information for Function Detection](https://arxiv.org/pdf/2104.03168.pdf)
