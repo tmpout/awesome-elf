@@ -211,12 +211,13 @@ Your [contributions](contributing.md) are always welcome !
 
 ### ELF header hacks
 
-### DWARF stuff
-- [dwarf-writer](https://github.com/immunant/dwarf-writer)
-- [gimli - a library for reading and writing the DWARF debugging format](https://docs.rs/gimli/latest/gimli/)
-- [The Almighty DWARF: A Trojan Horse for Program Analysis, Verification, and Recompilation](https://www.philipzucker.com/dwarf-patching/)
+### Debugging Formats
 
-### DWARF Alternatives
+- DWARF
+  - [dwarf-writer](https://github.com/immunant/dwarf-writer)
+  - [gimli - a library for reading and writing the DWARF debugging format](https://docs.rs/gimli/latest/gimli/)
+  - [The Almighty DWARF: A Trojan Horse for Program Analysis, Verification, and Recompilation](https://www.philipzucker.com/dwarf-patching/)
+
 - Compact C Type Format
   - [The Compact C Type Format in the GNU toolchain](https://lwn.net/Articles/795384/)
   - [The CTF File Format](https://raw.githubusercontent.com/wiki/oracle/binutils-gdb/files/ctf-spec.pdf)
@@ -225,7 +226,7 @@ Your [contributions](contributing.md) are always welcome !
   - [The ORCs are coming!](https://lwn.net/Articles/728339/)
   - [ORC unwinder](https://www.kernel.org/doc/html/next/x86/orc-unwinder.html)
 
-### PROGRAMMING
+### Programming
 
 - [The Art of Assembly Programming Language](https://www.phatcode.net/res/223/files/html/toc.html)
 - [Bit twiddling hacks](https://graphics.stanford.edu/~seander/bithacks.html)
@@ -235,18 +236,17 @@ Your [contributions](contributing.md) are always welcome !
 - [Writing C software without the standard library \[Linux Edition\] - Franc\[e\]sco's Gopherspace](https://gist.github.com/tcoppex/443d1dd45f873d96260195d6431b0989)
 
 ### Reverse Engineering and Detection
-- [Ghidra Patch Diffing](https:
-  //cve-north-stars.github.io/docs/Ghidra-Patch-Diffing)
+
+- [Ghidra Patch Diffing](https://cve-north-stars.github.io/docs/Ghidra-Patch-Diffing)
 - [drgn - a powerful and flexible debugger](https://blogs.oracle.com/linux/post/enter-the-drgn)
 - [Towards Optimal Use of Exception Handling Information for Function Detection](https://arxiv.org/pdf/2104.03168.pdf)
 - [Reverse Engineering Ebpfkit Rootkit With BlackBerry's Enhanced IDA Processor
-  Tool](https://blogs.blackberry.com/en/2021/12/reverse-engineering-ebpfkit-rootkit-with-blackberrys-free-ida-pro
-cessor-tool)
+  Tool](https://blogs.blackberry.com/en/2021/12/reverse-engineering-ebpfkit-rootkit-with-blackberrys-free-ida-processor-tool)
 - [UPX Recovery Tool](https://github.com/NozomiNetworks/upx-recovery-tool)
 - [Userland rootkits are lame](https://grugq.substack.com/p/userland-rootkits-are-lame)
 - [OrBit: New Undetected Linux Threat Uses Unique Hijack of Execution Flow](https://intezer.com/blog/incident-response/orbit-new-undetected-linux-threat/)
 
-### MISC
+### Misc
 
 - [vxer.io (vxheaven successor)](https://vxer.io/)
 - [ANSIWAVE BBS](https://ansiwave.net/)
