@@ -103,23 +103,15 @@ Your [contributions](contributing.md) are always welcome !
 - [Linux Foundation Referenced Specifications](https://refspecs.linuxbase.org)
 
 - Keith Makan ELF Format Series
-  - [Introduction to the ELF Format : The ELF Header (Part I)](https:
-    //blog.k3170makan.com/2018/09/introduction-to-elf-format-elf-header.html)
-  - [Introduction to the ELF Format Part II : Understanding Program Headers ](https:
-    //blog.k3170makan.com/2018/09/introduction-to-elf-format-part-ii.html)
-  - [Introduction to the ELF File Format (Part III) : The Section Headers](https:
-    //blog.k3170makan.com/2018/09/introduction-to-elf-file-format-part.html)
-  - [Introduction to The ELF Format (Part IV): Exploring Section Types and
-    Special Sections](https:
-    //blog.k3170makan.com/2018/10/introduction-to-elf-format-part-iv.html)
+  - [Introduction to the ELF Format : The ELF Header (Part I)](https://blog.k3170makan.com/2018/09/introduction-to-elf-format-elf-header.html)
+  - [Introduction to the ELF Format Part II : Understanding Program Headers ](https://blog.k3170makan.com/2018/09/introduction-to-elf-format-part-ii.html)
+  - [Introduction to the ELF File Format (Part III) : The Section Headers](https://blog.k3170makan.com/2018/09/introduction-to-elf-file-format-part.html)
+  - [Introduction to The ELF Format (Part IV): Exploring Section Types and Special Sections](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-iv.html)
   - [Introduction to the ELF Format (Part V) : Understanding C start up .init_array and .fini_array sections](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-v.html)
   - [Introduction to the ELF Format (Part VI) : The Symbol Table and Relocations (Part 1)](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi.html)
-  - [Introduction to The ELF Format (Part VI): The Symbol Table and Relocations
-    (Part 2)](https:
-    //blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi_18.html)
+  - [Introduction to The ELF Format (Part VI): The Symbol Table and Relocations (Part 2)](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi_18.html)
   - [Introduction to the ELF Format (Part VI) : More Relocation tricks - r_addend execution (Part 3)](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi-more.html)
-  - [Introduction to the ELF Format (Part VII): Dynamic Linking / Loading and
-    the .dynamic section](https://blog.k3170makan.com/2018/11/introduction-to-elf-format-part-vii.html)
+  - [Introduction to the ELF Format (Part VII): Dynamic Linking / Loading and the .dynamic section](https://blog.k3170makan.com/2018/11/introduction-to-elf-format-part-vii.html)
  - [charngda ELF Format reference (mirror)](https://stevens.netmeister.org/631/elf.html)
 
 - Tools
@@ -209,14 +201,12 @@ Your [contributions](contributing.md) are always welcome !
 - perljam.pl: A Perl x64 ELF virus by isra
   - [Writeup](https://hckng.org/articles/perljam-elf64-virus.html)
   - [Source code](https://github.com/ilv/vx/blob/main/perljam.pl)
-- [stelf-loader: stealthy ELF loader - no files, no execve, no RWX](https:
-  //github.com/DavidBuchanan314/stelf-loader)
+- [stelf-loader: stealthy ELF loader - no files, no execve, no RWX](https://github.com/DavidBuchanan314/stelf-loader)
 - [DDexec: run binaries filelessly and stealthily on Linux by overwriting the
   shell's process with another](https://github.com/arget13/DDexec)
 - [Griffiths - Binary Protection Schemes](https://bitlackeys.org/papers/BinaryProtectionSchemes59.pdf)
 - [KoviD kernel rootkit](https://github.com/carloslack/KoviD)
-- [Offensive capabilities of eBPF and implementation of a rootkit](https:
-  //raw.githubusercontent.com/h3xduck/TripleCross/master/docs/ebpf_offensive_rootkit_tfg.pdf)
+- [Offensive capabilities of eBPF and implementation of a rootkit](https://raw.githubusercontent.com/h3xduck/TripleCross/master/docs/ebpf_offensive_rootkit_tfg.pdf)
 - [debugoff - linux anti-debugging and anti-analysis rust library](https://github.com/0xor0ne/debugoff)
 
 ### ELF header hacks
@@ -228,12 +218,12 @@ Your [contributions](contributing.md) are always welcome !
 
 ### DWARF Alternatives
 - Compact C Type Format
- - [The Compact C Type Format in the GNU toolchain](https://lwn.net/Articles/795384/)
- - [The CTF File Format](https://raw.githubusercontent.com/wiki/oracle/binutils-gdb/files/ctf-spec.pdf)
+  - [The Compact C Type Format in the GNU toolchain](https://lwn.net/Articles/795384/)
+  - [The CTF File Format](https://raw.githubusercontent.com/wiki/oracle/binutils-gdb/files/ctf-spec.pdf)
 
 - Oops Rewind Capability (ORC)
- - [The ORCs are coming!](https://lwn.net/Articles/728339/)
- - [ORC unwinder](https://www.kernel.org/doc/html/next/x86/orc-unwinder.html)
+  - [The ORCs are coming!](https://lwn.net/Articles/728339/)
+  - [ORC unwinder](https://www.kernel.org/doc/html/next/x86/orc-unwinder.html)
 
 ### PROGRAMMING
 
@@ -247,17 +237,14 @@ Your [contributions](contributing.md) are always welcome !
 ### Reverse Engineering and Detection
 - [Ghidra Patch Diffing](https:
   //cve-north-stars.github.io/docs/Ghidra-Patch-Diffing)
-- [drgn - a powerful and flexible debugger](https:
-  //blogs.oracle.com/linux/post/enter-the-drgn)
+- [drgn - a powerful and flexible debugger](https://blogs.oracle.com/linux/post/enter-the-drgn)
 - [Towards Optimal Use of Exception Handling Information for Function Detection](https://arxiv.org/pdf/2104.03168.pdf)
 - [Reverse Engineering Ebpfkit Rootkit With BlackBerry's Enhanced IDA Processor
   Tool](https://blogs.blackberry.com/en/2021/12/reverse-engineering-ebpfkit-rootkit-with-blackberrys-free-ida-pro
 cessor-tool)
 - [UPX Recovery Tool](https://github.com/NozomiNetworks/upx-recovery-tool)
-- [Userland rootkits are lame](https:
-  //grugq.substack.com/p/userland-rootkits-are-lame)
-- [OrBit: New Undetected Linux Threat Uses Unique Hijack of Execution Flow](https:
-  //intezer.com/blog/incident-response/orbit-new-undetected-linux-threat/)
+- [Userland rootkits are lame](https://grugq.substack.com/p/userland-rootkits-are-lame)
+- [OrBit: New Undetected Linux Threat Uses Unique Hijack of Execution Flow](https://intezer.com/blog/incident-response/orbit-new-undetected-linux-threat/)
 
 ### MISC
 
@@ -268,8 +255,6 @@ cessor-tool)
 - [WIZARD BIBLE (in Japanese)](https://wizardbible.github.io/)
 - [Second Part To Hell](https://github.com/SPTHvx/SPTH)
 - [Lotus 1-2-3 for Linux](https://lock.cmpxchg8b.com/linux123.html)
-- [Linux x86 Program Start Up or - How the heck do we get to main()?](http:
-  //dbp-consulting.com/tutorials/debugging/linuxProgramStartup.html)
 
 ### Polyglots
 
