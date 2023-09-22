@@ -156,6 +156,7 @@ Your [contributions](contributing.md) are always welcome !
   - Shiva micropatching system
     - [About Shiva](https://arcana-research.io/shiva/)
     - [Source](https://github.com/advanced-microcode-patching/shiva)
+    - DEFCON 31 Talk ([video](https://www.youtube.com/watch?v=cWf3fpkJyFo) | [slides](https://media.defcon.org/DEF%20CON%2031/DEF%20CON%2031%20presentations/ElfMaster%20-%20Revolutionizing%20ELF%20binary%20patching%20with%20Shiva%20A%20JIT%20binary%20patching%20system%20for%20Linux.pdf))
 
 - Peter Ferrie and Flibi
   - [FLIBI: EVOLUTION](http://pferrie.epizy.com/papers/flibi2.pdf?i=1)
