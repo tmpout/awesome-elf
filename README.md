@@ -245,6 +245,10 @@ Your [contributions](contributing.md) are always welcome !
 - [Userland rootkits are lame](https://grugq.substack.com/p/userland-rootkits-are-lame)
 - [OrBit: New Undetected Linux Threat Uses Unique Hijack of Execution Flow](https://intezer.com/blog/incident-response/orbit-new-undetected-linux-threat/)
 
+### ELF Challs and CTFs
+
+- [Crack The ELF!](https://cracktheelf.github.io/) by s0lden
+
 ### Misc
 
 - [vxer.io (vxheaven successor)](https://vxer.io/)
