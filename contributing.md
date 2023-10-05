@@ -14,6 +14,7 @@ If you see your work cited here and would like us to credit in a more specific w
 - [Debugging Formats](README.md#Debugging-Formats)
 - [Programming](README.md#Programming)
 - [Reverse Engineering and Detection](README.md#Reverse-Engineering-and-Detection)
+- [ELF Challs and CTFs](README.md#ELF-Challs-and-CTFs)
 - [Misc](README.md#Misc)
 - [Polyglots](README.md#Polyglots)
 - [Linker Script Tutorials](README.md#Linker-Script-Tutorials)

@@ -156,6 +156,9 @@ Your [contributions](contributing.md) are always welcome !
   - Shiva micropatching system
     - [About Shiva](https://arcana-research.io/shiva/)
     - [Source](https://github.com/advanced-microcode-patching/shiva)
+    - DEFCON 31 Talk
+      - [Video](https://www.youtube.com/watch?v=cWf3fpkJyFo)
+      - [Slides](https://media.defcon.org/DEF%20CON%2031/DEF%20CON%2031%20presentations/ElfMaster%20-%20Revolutionizing%20ELF%20binary%20patching%20with%20Shiva%20A%20JIT%20binary%20patching%20system%20for%20Linux.pdf)
 
 - Peter Ferrie and Flibi
   - [FLIBI: EVOLUTION](http://pferrie.epizy.com/papers/flibi2.pdf?i=1)
@@ -242,6 +245,10 @@ Your [contributions](contributing.md) are always welcome !
 - [UPX Recovery Tool](https://github.com/NozomiNetworks/upx-recovery-tool)
 - [Userland rootkits are lame](https://grugq.substack.com/p/userland-rootkits-are-lame)
 - [OrBit: New Undetected Linux Threat Uses Unique Hijack of Execution Flow](https://intezer.com/blog/incident-response/orbit-new-undetected-linux-threat/)
+
+### ELF Challs and CTFs
+
+- [Crack The ELF!](https://cracktheelf.github.io/) by s0lden
 
 ### Misc
 
