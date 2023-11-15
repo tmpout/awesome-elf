@@ -149,7 +149,7 @@ Your [contributions](contributing.md) are always welcome !
 - elfmaster and ELF vx
   - [Devestating and awesome Linux X86_64 ELF Virus](https://github.com/elfmaster/skeksi_virus)
   - [ELF Shared library injector using DT_NEEDED precedence infection](https://github.com/elfmaster/dt_infect)
-  - [SCOP ELF vx](https://github.com/elfmaster/scop_virus_paper)
+  - [ELF Virus infection techniques that work with SCOP](https://github.com/elfmaster/scop_virus_paper)
   - [Saruman - ELF anti-forensics exec](https://github.com/elfmaster/saruman)
   - [AV prototype - 32bit](https://github.com/elfmaster/avu32)
   - [LK rootkit](https://github.com/elfmaster/kprobe_rootkit)
