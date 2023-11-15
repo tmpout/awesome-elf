@@ -149,7 +149,7 @@ Your [contributions](contributing.md) are always welcome !
 - elfmaster and ELF vx
   - [Devestating and awesome Linux X86_64 ELF Virus](https://github.com/elfmaster/skeksi_virus)
   - [ELF Shared library injector using DT_NEEDED precedence infection](https://github.com/elfmaster/dt_infect)
-  - [SCOP ELF vx](https://github.com/elfmaster/scop_virus_paper)
+  - [ELF Virus infection techniques that work with SCOP](https://github.com/elfmaster/scop_virus_paper)
   - [Saruman - ELF anti-forensics exec](https://github.com/elfmaster/saruman)
   - [AV prototype - 32bit](https://github.com/elfmaster/avu32)
   - [LK rootkit](https://github.com/elfmaster/kprobe_rootkit)
@@ -201,6 +201,8 @@ Your [contributions](contributing.md) are always welcome !
 - [Offensive capabilities of eBPF and implementation of a rootkit](https://raw.githubusercontent.com/h3xduck/TripleCross/master/docs/ebpf_offensive_rootkit_tfg.pdf)
 - [debugoff - linux anti-debugging and anti-analysis rust library](https://github.com/0xor0ne/debugoff)
 - [ELF Binaries: One Algorithm to Infect Them All (VXUG Black Mass Volume II)](https://samples.vx-underground.org/root/Papers/Other/VXUG%20Zines/2023-09-19%20-%20Black%20Mass%20Volume%20II.pdf)
+- [grugq & scut: Armouring the ELF: Binary encryption on the UNIX platform](https://grugq.github.io/docs/phrack-58-05.txt)
+- [sblip & elfmaster: Secure Code Partitioning With ELF binaries, aka. SCOP](https://bitlackeys.org/papers/secure_code_partitioning_2018.txt)
 
 ### ELF header hacks
 
