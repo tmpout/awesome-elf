@@ -1,0 +1,232 @@
+Secure Code Partitioning With ELF binaries, aka. SCOP
+        Brought to you by sblip (Justin Michaels) and
+        ElfMaster (Ryan O'Neill)
+
+1. Introduction
+
+Over the last decade there have been several enhancements to the Linux ELF
+dynamic linker and static linker that allow for security mitigations such as
+RELRO (Read-only relocations [1]) and PIE (Position Independent Executables) [2].
+With the release of ld-2.0, is the new feature 'separate-code',
+which is being used in the linker-script that comes packed with
+gcc-8.1.x, and is using it by default to enhance security by
+limiting the surface space of viable ROP gadgets within executables and shared
+libraries. The end effect of this is more secure ELF binaries, particularly programs
+that are very large and require many shared library dependencies.
+
+
+One Saturday night we were testing Arcana (An unreleased binary forensics technology)
+on binaries within a fresh lubuntu 18.10 installation.
+Immediately, Arcana identified some anomalies in the /bin/ls binary,
+which would normally signal us that there may be an infection or malware of some sort.
+Knowing this was unlikely, further analysis of the binary in question using 'readelf -l'
+(which shows you the program headers and sections that map to each
+segment), revealed something interesting. To our surprise and pleasure, we noticed that there were 4
+PT_LOAD segments, and that 3 of these were the usually singular text segment divided
+into 3 separate segments, with permissions that corresponded to the
+applicable section header type and the usual flags associated with them.
+The linker ld(1) now takes these flags into account for the
+multiple text segments, and applies them accordingly by partitioning read-only
+data into their own segments, which are described by the program headers which
+the kernel references when loading an executable object. This is a step forward
+in ELF binary security which had no previous mention in the security community,
+and only an obscure sentence in the man page for ld(1). Below we extrapolate the
+details on how this is a security enhancement that will soon be seen on virtually all ELF
+executables in x86 Linux (and beyond).
+
+2. A look at traditional executables
+
+Let us take a peek at an executable that was linked with a slightly older
+version of ld(1) which is devoid of the 'separate-code' flag, a feature that was
+released in version 2.30.
+
+-- $ readelf -l /bin/ls
+
+Elf file type is DYN (Shared object file)
+Entry point 0x5850
+There are 9 program headers, starting at offset 64
+
+Program Headers:
+  Type           Offset             VirtAddr           PhysAddr
+                 FileSiz            MemSiz              Flags  Align
+  PHDR           0x0000000000000040 0x0000000000000040 0x0000000000000040
+                 0x00000000000001f8 0x00000000000001f8  R E    0x8
+  INTERP         0x0000000000000238 0x0000000000000238 0x0000000000000238
+                 0x000000000000001c 0x000000000000001c  R      0x1
+      [Requesting program interpreter: /lib64/ld-linux-x86-64.so.2]
+  LOAD           0x0000000000000000 0x0000000000000000 0x0000000000000000
+                 0x000000000001e6e8 0x000000000001e6e8  R E    0x200000
+  LOAD           0x000000000001eff0 0x000000000021eff0 0x000000000021eff0
+                 0x0000000000001278 0x0000000000002570  RW     0x200000
+  DYNAMIC        0x000000000001fa38 0x000000000021fa38 0x000000000021fa38
+                 0x0000000000000200 0x0000000000000200  RW     0x8
+  NOTE           0x0000000000000254 0x0000000000000254 0x0000000000000254
+                 0x0000000000000044 0x0000000000000044  R      0x4
+  GNU_EH_FRAME   0x000000000001b1a0 0x000000000001b1a0 0x000000000001b1a0
+                 0x0000000000000884 0x0000000000000884  R      0x4
+  GNU_STACK      0x0000000000000000 0x0000000000000000 0x0000000000000000
+                 0x0000000000000000 0x0000000000000000  RW     0x10
+  GNU_RELRO      0x000000000001eff0 0x000000000021eff0 0x000000000021eff0
+                 0x0000000000001010 0x0000000000001010  R      0x1
+
+ Section to Segment mapping:
+  Segment Sections...
+   00
+   01     .interp
+   02     .interp .note.ABI-tag .note.gnu.build-id .gnu.hash .dynsym .dynstr .gnu.version .gnu.version_r .rela.dyn .rela.plt .init .plt .plt.got .text .fini .rodata .eh_frame_hdr .eh_frame
+   03     .init_array .fini_array .data.rel.ro .dynamic .got .data .bss
+   04     .dynamic
+   05     .note.ABI-tag .note.gnu.build-id
+   06     .eh_frame_hdr
+   07
+   08     .init_array .fini_array .data.rel.ro .dynamic .got
+
+
+Historically (As it pertains to x86 architecture), and until recently, the
+gcc/ld compiler and default linker script generated executables that were comprised of two
+PT_LOAD segments; one for the text segment, and one for the data segment.
+until now the only mitigation for hardening either of these segments has been
+with RELRO [1], which requires the dynamic linker to apply mprotect(2) to
+sensitive parts of the data segment as read-only. With the introduction of the
+separate-code feature in ld(1), there is a new convention that will soon be
+present on all Linux systems that upgrade to gcc 8.2.x, as it defaults to using
+a linker script that contains the following linker arguments:
+'-pie -z combreloc -z now -z relro -z separate-code'.
+Versions of gcc before 8.2 were using an ld(1) that preceded 2.3.0 and
+the default linker sript omitted the use of the 'separate-code'
+argument.
+
+In the 'readelf -l' output above we can see that the text segment precedes the
+data segment, and thus there are only two PT_LOAD segments. The output also
+shows the section to segment mapping which tells us that all read-only parts of
+the program are stored in the R+E (Read + Execute) code segment. For sections
+such as .note, .gnu.hash, .dynsym, .dynstr, .rodata, .eh_frame_hdr, .eh_frame, etc.,
+this is not necessary because they do not contain executable code, but must remain
+read-only for security reasons. These sections that contain read-only data
+historically have existed within an executable segment, posing a security risk that
+may inadvertently contain various instructions that serve as ROP gadgets to an
+attacker. We will show an example of this in section 3.
+
+Ubuntu 18 made a huge step forward by linking all executables with the -pie
+flag, thus making them position independent for use of full ASLR. It does not
+however come stock with the latest gcc/ld features that allow for enabling an
+important security enhancement for tightening up the process address space in
+such a way that it limits the amount of usable ROP gadgets.
+
+We believe all distributions of Linux will be upgrading to the latest gcc/ld,
+thus allowing for this secure linking enhancement to be a new convention for
+the layout of ELF executable objects.
+
+3. ELF executables built with code segregation
+
+Let us take a look at the ELF structure of /bin/ls from lubuntu 18.10 which
+demonstrates a fancy new approach to limiting the attack surface of ELF
+executables during exploitation.
+
+-- $ readelf -l /bin/ls
+
+Elf file type is DYN (Shared object file)
+Entry point 0x6190
+There are 11 program headers, starting at offset 64
+
+Program Headers:
+  Type           Offset             VirtAddr           PhysAddr
+                 FileSiz            MemSiz              Flags  Align
+  PHDR           0x0000000000000040 0x0000000000000040 0x0000000000000040
+                 0x0000000000000268 0x0000000000000268  R      0x8
+  INTERP         0x00000000000002a8 0x00000000000002a8 0x00000000000002a8
+                 0x000000000000001c 0x000000000000001c  R      0x1
+      [Requesting program interpreter: /lib64/ld-linux-x86-64.so.2]
+  LOAD           0x0000000000000000 0x0000000000000000 0x0000000000000000
+                 0x0000000000003788 0x0000000000003788  R      0x1000
+  LOAD           0x0000000000004000 0x0000000000004000 0x0000000000004000
+                 0x0000000000012ff9 0x0000000000012ff9  R E    0x1000
+  LOAD           0x0000000000017000 0x0000000000017000 0x0000000000017000
+                 0x00000000000088f0 0x00000000000088f0  R      0x1000
+  LOAD           0x000000000001fff0 0x0000000000020ff0 0x0000000000020ff0
+                 0x0000000000001278 0x0000000000002570  RW     0x1000
+  DYNAMIC        0x0000000000020a38 0x0000000000021a38 0x0000000000021a38
+                 0x0000000000000200 0x0000000000000200  RW     0x8
+  NOTE           0x00000000000002c4 0x00000000000002c4 0x00000000000002c4
+                 0x0000000000000044 0x0000000000000044  R      0x4
+  GNU_EH_FRAME   0x000000000001c180 0x000000000001c180 0x000000000001c180
+                 0x00000000000008e4 0x00000000000008e4  R      0x4
+  GNU_STACK      0x0000000000000000 0x0000000000000000 0x0000000000000000
+                 0x0000000000000000 0x0000000000000000  RW     0x10
+  GNU_RELRO      0x000000000001fff0 0x0000000000020ff0 0x0000000000020ff0
+                 0x0000000000001010 0x0000000000001010  R      0x1
+
+ Section to Segment mapping:
+  Segment Sections...
+   00
+   01     .interp
+   02     .interp .note.ABI-tag .note.gnu.build-id .gnu.hash .dynsym .dynstr .gnu.version .gnu.version_r .rela.dyn .rela.plt
+   03     .init .plt .plt.got .text .fini
+   04     .rodata .eh_frame_hdr .eh_frame
+   05     .init_array .fini_array .data.rel.ro .dynamic .got .data .bss
+   06     .dynamic
+   07     .note.ABI-tag .note.gnu.build-id
+   08     .eh_frame_hdr
+   09
+   10     .init_array .fini_array .data.rel.ro .dynamic .got
+
+
+Immediately we can see that there are four PT_LOAD segments. While looking at the section
+to segment mapping, we see that LOAD segments 02 through 04 comprise the entire text segment,
+and that the only sections that require execution: '.init, .plt, .plt.got, .text, .fini'
+are in LOAD segment 03 which is marked R+E (Read + Execute). The LOAD segments 02 and
+04 contain the sections 'interp, .note.ABI-tag, .note.gnu.build-id, .gnu.hash, .dynsym,
+.dynstr, .gnu.version, .gnu.version_r, .rela.dyn, .rela.plt', which do not require executable
+access, and have always had section flags denoting this. While looking at the command output
+of 'readelf -S' to display the section headers we can quickly see that the section header
+flags for segment '03' (The executable text segment) are assigned sh_flags values of 'AX',
+which is short-hand for 'ALLOC|EXECINSTR' whereas the sections that correspond to LOAD
+segments 02 and 04 have an sh_flag value of 'ALLOC', which implicitly means they are allocated
+into one or more LOAD segments but are not meant to be executable. Historically our linking
+convention has been to simply store these 'ALLOC' sections into the text segment because it
+is not writable, but once attackers started finding ROP gadgets in these sections they posed
+a risk by widening the attack surface for memory corruption exploits which find gadgets within
+executable code regions.
+
+At a glance with objdump (not even observing misaligned instructions), we found the following
+example of a potential ROP gadget within the .rela.dyn section, which contains relocation
+records that are used by the dynamic linker.
+
+5fa0:       50                      push   %rax
+5fa1:       cb                      lret
+
+This is an 'intersegment' return, similar to an lcall. Although this may not be
+a common ROP gadget, it is viable for pushing an address for a separate
+executable segment onto the stack and transferring control flow to that
+location. This could very well be the key instruction that an attacker was
+looking for, and due to the read-only LOAD segment where this instruction lives
+it is now impossible to execute, therefore mitigating an attack that requires
+this instruction.
+
+4. Summary of our observations
+
+Secure code partitioning is a relatively simple change to the way that ELF
+executables are linked and how they divide up the code segment in order to
+tighten up the attack surface for memory corruption vulnerabilities. It is
+a significant security improvement, and is essentially the inverse
+of RELRO [1]. Instead of applying read-only permissions to sensitive parts of the
+data segment, it applies read-only permissions to potentially dangerous areas
+of the code segment. We therefore coin the new security term 'SCOP' (Secure
+code partitioning). So for those security folks out there who are big on binary
+security mitigations, make sure to add SCOP to your checklist.
+
+A Secure ELF binary should have the following mitigations applied:
+
+* RELRO                 gcc -Wl,-z,relro,-z,now
+* SCOP			gcc -Wl,-z,separate-code
+* PIE (Full ASLR)       gcc -fPIC -pie
+* Stack Canaries        gcc -fstack-protector
+* PaX mprotect(2)       paxctl -M
+
+Do not forget that statically linked executables do not officially support
+PIE or RELRO, but have had some solutions proposed in the paper "ASLR and
+RELRO protection for statically linked executables" [3]
+
+[1] http://tk-blog.blogspot.com/2009/02/relro-not-so-well-known-memory.html
+[2] https://en.wikipedia.org/wiki/Position-independent_code
+[3] https://www.leviathansecurity.com/blog/aslr-protection-for-statically-linked-executables
