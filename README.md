@@ -247,6 +247,9 @@ Your [contributions](contributing.md) are always welcome !
 - [UPX Recovery Tool](https://github.com/NozomiNetworks/upx-recovery-tool)
 - [Userland rootkits are lame](https://grugq.substack.com/p/userland-rootkits-are-lame)
 - [OrBit: New Undetected Linux Threat Uses Unique Hijack of Execution Flow](https://intezer.com/blog/incident-response/orbit-new-undetected-linux-threat/)
+- elfmaster: Arcana ElfScan
+  - [The philosophy of Elves in Linux threat detection](https://arcana-technologies.io/blog/the-philosophy-of-elves-in-linux-threat-detection/)
+  - [Source](https://github.com/arcana-technologies/arcana.elfscan)
 
 ### ELF Challs and CTFs
 
