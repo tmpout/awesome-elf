@@ -274,3 +274,57 @@ Your [contributions](contributing.md) are always welcome !
 - [Everything You Never Wanted To Know About Linker Script](https://mcyoung.xyz/2021/06/01/linker-script/)
 - [Linker Script Guide](https://www.phaedsys.com/principals/emprog/emprogdata/thunderbench-Linker-Script-guide.pdf)
 - [Most Commented Linker Script in the World](https://blog.thea.codes/the-most-thoroughly-commented-linker-script/)
+
+### macOS - general
+- [Papers, Slides and Thesis Archive](https://papers.put.as/macosx/macosx/)
+
+### Mach-O
+- [Mach-O file builders](https://alexdremov.me/mystery-of-mach-o-object-file-builders/)
+- [Exploring the Mach-O (4 part series of blogposts)](https://gpanders.com/blog/exploring-mach-o-part-1/)
+- [Understanding the Mach-O file format](https://medium.com/@travmath/understanding-the-mach-o-file-format-66cf0354e3f4)
+- [Mach-O file format reference](https://github.com/aidansteele/osx-abi-macho-file-format-reference)
+
+### APFS
+- [APFS structure](https://www.ntfs.com/apfs-structure.htm)
+- [APFS Forensics](https://static.ernw.de/whitepaper/ERNW_Whitepaper65_APFS-forensics_signed.pdf)
+
+### macOS - blogs which cover a lot of Mac-related topics
+- [Patrick Wardle Objective-See Blog](https://www.objective-see.com/)
+- [Pedro Vilaca Reverse Engineering](https://reverse.put.as/)
+- [Howard Oakley (@howardnoakley) - The Eclectic Light Company – Macs, paintings and more](https://eclecticlight.co/)
+- [Jeff Johnson (@lapcatsoftware) - The Desolation of Blog](https://lapcatsoftware.com/articles/)
+- [Wojciech Reguła (@_r3ggi) Blog](https://wojciechregula.blog/)
+- [Scott Knight (@sdotknight) - Reverse engineering and debugging](https://knight.sc/)
+- [Zhi Zhou (@CodeColorist) Blog](https://blog.chichou.me/)
+- [Kai Lu (@K3vinLuSec) - Fortinet’s macOS posts](https://www.fortinet.com/blog/tags-search?tag=mac-os)
+- [Jaron Bradley (@jbradley89) - The Mitten Mac – Mac Incident Response and Threat Hunting](https://themittenmac.com/)
+- [Cody Thomas (@itsa_feature) – Medium](https://medium.com/@its_a_feature_)
+- [Adam Chester (@xpn) Blog](https://blog.xpnsec.com/)
+- [Alex Plaskett (@alexjplaskett) - Blog](https://alexplaskett.github.io/)
+- [George Johnson (@GeoSn0w) – Blog](https://geosn0w.github.io/)
+- [Harry Moulton (@h3adsh0tzz) - Blog](https://h3adsh0tzz.com/)
+- [Sarah Edwards (@iamevltwin) - Blog](https://www.mac4n6.com/)
+- [Saagar Jha - Blog](https://saagarjha.com/blog/)
+- [LockBoxx (@1njection) - macOS Post Collection](https://lockboxx.blogspot.com/2020/06/macos-post-summary.html)
+- [Brandon Azad (@_bazad) - Blog](https://bazad.github.io/)
+- [Google Project Zero Bug Tracker - Apple](https://bugs.chromium.org/p/project-zero/issues/list?q=vendor%3DApple&can=1)
+- [Cedric Owens (@cedowens) – Medium](https://medium.com/@clowens0716)
+- [Christopher Ross (@xorrior) – Medium](https://medium.com/@xorrior)
+- [Richie Cyrus (@rrcyrus) – Medium](https://medium.com/@rrcyrus)
+- [Phil Stokes (@philofishal) - SentinelOne](https://www.sentinelone.com/blog/tag/macos-security-sentinelone/)
+- [Jakob Rieck (0xdead10cc) - Blog](https://ubrigens.com/)
+- [Csaba Fitzl (@theevilbit) - Blog](https://theevilbit.github.io/)
+
+### macOS - official Apple resources
+- [Apple's docs archive](https://developer.apple.com/library/archive/navigation/)
+- [Apple Open Source](https://opensource.apple.com/)
+- [XNU](https://github.com/apple-oss-distributions/xnu)
+- [Distribution macOS](https://github.com/apple-oss-distributions/distribution-macOS)
+- [APFS Reference](https://developer.apple.com/support/downloads/Apple-File-System-Reference.pdf)
+- [Mach-O architecture](https://developer.apple.com/documentation/foundation/bundle/1495005-mach-o_architecture/)
+
+### Apple-related misc
+- [Apple Knowledge repo](https://github.com/hack-different/apple-knowledge)
+- [AppleDB - list of software versions and released hardware](https://appledb.dev/)
+- [iOS development wiki (also covers a lot on the *OS internals)](https://iphonedev.wiki/Welcome)
+- [macOS Security and Privilege Escalation from HackTricks](https://book.hacktricks.xyz/macos-hardening/macos-security-and-privilege-escalation)
