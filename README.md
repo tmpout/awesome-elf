@@ -267,6 +267,7 @@ Your [contributions](contributing.md) are always welcome !
 - [αcτµαlly pδrταblε εxεcµταblε](https://justine.lol/ape.html)
 - [Architecture Spanning Shellcode](http://phrack.org/issues/57/14.html#article)
 - [Doublethink – 8-Architecture Assembly Polyglot](https://www.robertxiao.ca/hacking/defcon2018-assembly-polyglot/)
+- [Polyglottar, an ISO+TAR+ELF polyglot](https://sysfatal.github.io/polyglottar-en.html)
 - [tweetable-polyglot-png](https://github.com/DavidBuchanan314/tweetable-polyglot-png)
 
 ### Linker Script Tutorials
