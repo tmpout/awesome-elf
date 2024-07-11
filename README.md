@@ -248,6 +248,7 @@ Your [contributions](contributing.md) are always welcome !
 - [UPX Recovery Tool](https://github.com/NozomiNetworks/upx-recovery-tool)
 - [Userland rootkits are lame](https://grugq.substack.com/p/userland-rootkits-are-lame)
 - [OrBit: New Undetected Linux Threat Uses Unique Hijack of Execution Flow](https://intezer.com/blog/incident-response/orbit-new-undetected-linux-threat/)
+- [ESET: Ebury is alive but unseen](https://web-assets.esetstatic.com/wls/en/papers/white-papers/ebury-is-alive-but-unseen.pdf)
 
 ### Resources and wikis
 
