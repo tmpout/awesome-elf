@@ -11,8 +11,13 @@ If you see your work cited here and would like us to credit in a more specific w
 - [ELF binary format](README.md#ELF-binary-format)
 - [ELF VX technology](README.md#ELF-VX-technology)
 - [ELF header hacks](README.md#ELF-header-hacks)
+- [Debugging Formats](README.md#Debugging-Formats)
 - [Programming](README.md#Programming)
-- [DWARF stuff](README.md#DWARF-stuff)
+- [Reverse Engineering and Detection](README.md#Reverse-Engineering-and-Detection)
+- [ELF Challs and CTFs](README.md#ELF-Challs-and-CTFs)
+- [Misc](README.md#Misc)
+- [Polyglots](README.md#Polyglots)
+- [Linker Script Tutorials](README.md#Linker-Script-Tutorials)
 
 ## Adding stuff to the List
 
