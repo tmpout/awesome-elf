@@ -200,7 +200,7 @@ Your [contributions](contributing.md) are always welcome !
 - [KoviD kernel rootkit](https://github.com/carloslack/KoviD)
 - [Offensive capabilities of eBPF and implementation of a rootkit](https://raw.githubusercontent.com/h3xduck/TripleCross/master/docs/ebpf_offensive_rootkit_tfg.pdf)
 - [debugoff - linux anti-debugging and anti-analysis rust library](https://github.com/0xor0ne/debugoff)
-- [ELF Binaries: One Algorithm to Infect Them All (VXUG Black Mass Volume II)](https://samples.vx-underground.org/root/Papers/Other/VXUG%20Zines/2023-09-19%20-%20Black%20Mass%20Volume%20II.pdf)
+- [ELF Binaries: One Algorithm to Infect Them All (VXUG Black Mass Volume II)](https://samples.vx-underground.org/Papers/Other/VXUG%20Zines/2023-09-19%20-%20Black%20Mass%20Volume%20II.pdf)
 - [grugq & scut: Armouring the ELF: Binary encryption on the UNIX platform](https://grugq.github.io/docs/phrack-58-05.txt)
 - [sblip & elfmaster: Secure Code Partitioning With ELF binaries, aka. SCOP](https://bitlackeys.org/papers/secure_code_partitioning_2018.txt) ([mirror](txt/sblip_elfmaster_scop.txt))
 
@@ -247,6 +247,9 @@ Your [contributions](contributing.md) are always welcome !
 - [UPX Recovery Tool](https://github.com/NozomiNetworks/upx-recovery-tool)
 - [Userland rootkits are lame](https://grugq.substack.com/p/userland-rootkits-are-lame)
 - [OrBit: New Undetected Linux Threat Uses Unique Hijack of Execution Flow](https://intezer.com/blog/incident-response/orbit-new-undetected-linux-threat/)
+- elfmaster: Arcana ElfScan
+  - [The philosophy of Elves in Linux threat detection](https://arcana-technologies.io/blog/the-philosophy-of-elves-in-linux-threat-detection/)
+  - [Source](https://github.com/arcana-technologies/arcana.elfscan)
 
 ### ELF Challs and CTFs
 
