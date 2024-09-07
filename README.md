@@ -226,6 +226,7 @@ Your [contributions](contributing.md) are always welcome !
 - [The Art of Assembly Programming Language](https://www.phatcode.net/res/223/files/html/toc.html)
 - [Bit twiddling hacks](https://graphics.stanford.edu/~seander/bithacks.html)
 - [Intel® 64 and IA-32 Instruction Set Reference](https://namazso.github.io/x86/)
+- [Process name stomping](https://doubleagent.net/process-name-stomping/)
 - [System call reference tables for x86, x64, arm and arm64](https://syscall.sh)
 - [API for system call references for x86, x64, arm and arm64](https://api.syscall.sh/swagger/index.html)
 - [Writing C software without the standard library \[Linux Edition\] - Franc\[e\]sco's Gopherspace](https://gist.github.com/tcoppex/443d1dd45f873d96260195d6431b0989)
@@ -250,6 +251,8 @@ Your [contributions](contributing.md) are always welcome !
 - elfmaster: Arcana ElfScan
   - [The philosophy of Elves in Linux threat detection](https://arcana-technologies.io/blog/the-philosophy-of-elves-in-linux-threat-detection/)
   - [Source](https://github.com/arcana-technologies/arcana.elfscan)
+- [ESET: Ebury is alive but unseen](https://web-assets.esetstatic.com/wls/en/papers/white-papers/ebury-is-alive-but-unseen.pdf)
+
 
 ### ELF Challs and CTFs
 
@@ -264,6 +267,7 @@ Your [contributions](contributing.md) are always welcome !
 - [WIZARD BIBLE (in Japanese)](https://wizardbible.github.io/)
 - [Second Part To Hell](https://github.com/SPTHvx/SPTH)
 - [Lotus 1-2-3 for Linux](https://lock.cmpxchg8b.com/linux123.html)
+- [The Decompilation wiki](https://decompilation.wiki/)
 
 ### Polyglots
 
