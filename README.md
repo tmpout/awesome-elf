@@ -66,9 +66,9 @@ Your [contributions](contributing.md) are always welcome !
 
 - Ignacio Sanmillan / Paul Litvak and ELF 101
   - [Executable and Linkable Format 101 - Part 1 Sections and Segments](https://www.intezer.com/blog/research/executable-linkable-format-101-part1-sections-segments/)
-  - [Executable and Linkable Format 101. Part 2: Symbols](https://www.intezer.com/blog/malware-analysis/executable-linkable-format-101-part-2-symbols/)
-  - [Executable and Linkable Format 101 Part 3: Relocations](https://www.intezer.com/blog/malware-analysis/executable-and-linkable-format-101-part-3-relocations/)
-  - [Executable and Linkable Format 101 Part 4: Dynamic Linking](https://www.intezer.com/blog/malware-analysis/executable-linkable-format-101-part-4-dynamic-linking/)
+  - [Executable and Linkable Format 101 - Part 2: Symbols](https://www.intezer.com/blog/malware-analysis/executable-linkable-format-101-part-2-symbols/)
+  - [Executable and Linkable Format 101 - Part 3: Relocations](https://www.intezer.com/blog/malware-analysis/executable-and-linkable-format-101-part-3-relocations/)
+  - [Executable and Linkable Format 101 - Part 4: Dynamic Linking](https://www.intezer.com/blog/malware-analysis/executable-linkable-format-101-part-4-dynamic-linking/)
 
 - Ignat Korchagin and object files
   - [How to execute an object file: Part 1](https://blog.cloudflare.com/how-to-execute-an-object-file-part-1/)
@@ -85,7 +85,8 @@ Your [contributions](contributing.md) are always welcome !
   - [Introduction to the ELF Format (Part VI): The Symbol Table and Relocations (2)](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi_18.html)
   - [Introduction to the ELF Format (Part VI): More Relocation tricks - r_addend execution (3)](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi-more.html)
   - [Introduction to the ELF Format (Part VII): Dynamic Linking / Loading and the .dynamic section](https://blog.k3170makan.com/2018/11/introduction-to-elf-format-part-vii.html)
- - [charngda ELF Format reference (mirror)](https://stevens.netmeister.org/631/elf.html)
+
+- [charngda ELF Format reference (mirror)](https://stevens.netmeister.org/631/elf.html)
 
 - [Linux Foundation Referenced Specifications](https://refspecs.linuxbase.org)
 
@@ -97,9 +98,9 @@ Your [contributions](contributing.md) are always welcome !
 
 - netspooky and ELF Binary Mangling
   - [ELF Binary Mangling Part 1: Concepts](https://n0.lol/ebm/1.html)
-  - [Elf Binary Mangling Pt. 2: Golfin'](https://n0.lol/ebm/2.html)
-  - [Elf Binary Mangling Pt. 3: Weaponization](https://n0.lol/ebm/3.html)
-  - [Elf Binary Mangling Pt. 4: Limit Break](https://n0.lol/ebm/4.html)
+  - [Elf Binary Mangling Part 2: Golfin'](https://n0.lol/ebm/2.html)
+  - [Elf Binary Mangling Part 3: Weaponization](https://n0.lol/ebm/3.html)
+  - [Elf Binary Mangling Part 4: Limit Break](https://n0.lol/ebm/4.html)
 
 - Orlando Padilla and binary parsers
   - [Analyzing Common Binary Parser Mistakes](http://www.uninformed.org/?v=all&a=12&t=txt)
@@ -113,6 +114,9 @@ Your [contributions](contributing.md) are always welcome !
 - Samuel A. Falvo II and ELF
   - [On ELF, Part 1](https://kestrelcomputer.github.io/kestrel/2018/01/29/on-elf)
   - [On ELF, Part 2](https://kestrelcomputer.github.io/kestrel/2018/02/01/on-elf-2)
+
+- [richinseattle - Hooking the Linux ELF Loader](https://fuzzing.io/Presentations/200409%20Toorcon%20-%20Hooking%20the%20Linux%20ELF%20Loader/hooking_the_linux_ELF_loader.pdf)
+
 
 - Tools
   - [BioDiff - hex diff viewer](https://github.com/8051Enthusiast/biodiff)
