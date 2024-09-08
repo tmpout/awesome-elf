@@ -28,7 +28,7 @@ If you see your work cited here and would like us to credit in a more specific w
 
 ## Removing from the List
 
-- If you have any issues accessing any of the resources here, please let [us](https://github.com/tmpout/awesome-_x-resources/issues) know.
+- If you have any issues accessing any of the resources here, please let [us](https://github.com/tmpout/awesome-elf/issues) know.
 
 ## tmp0ut
 
