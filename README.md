@@ -287,20 +287,33 @@ Your [contributions](contributing.md) are always welcome !
 - [Linker Script Guide](https://www.phaedsys.com/principals/emprog/emprogdata/thunderbench-Linker-Script-guide.pdf)
 - [Most Commented Linker Script in the World](https://blog.thea.codes/the-most-thoroughly-commented-linker-script/)
 
-### macOS - general
+### macOS - General
+
 - [Papers, Slides and Thesis Archive](https://papers.put.as/macosx/macosx/)
 
-### Mach-O
+### macOS - Mach-O binary format
+
+- [Mach-O architecture](https://developer.apple.com/documentation/foundation/bundle/1495005-mach-o_architecture/)
 - [Mach-O file builders](https://alexdremov.me/mystery-of-mach-o-object-file-builders/)
 - [Exploring the Mach-O (4 part series of blogposts)](https://gpanders.com/blog/exploring-mach-o-part-1/)
 - [Understanding the Mach-O file format](https://medium.com/@travmath/understanding-the-mach-o-file-format-66cf0354e3f4)
 - [Mach-O file format reference](https://github.com/aidansteele/osx-abi-macho-file-format-reference)
 
-### APFS
-- [APFS structure](https://www.ntfs.com/apfs-structure.htm)
+### macOS - APFS
+
+- [APFS Reference](https://developer.apple.com/support/downloads/Apple-File-System-Reference.pdf)
+- [APFS Structure](https://www.ntfs.com/apfs-structure.htm)
 - [APFS Forensics](https://static.ernw.de/whitepaper/ERNW_Whitepaper65_APFS-forensics_signed.pdf)
 
-### macOS - blogs which cover a lot of Mac-related topics
+### macOS - Official Apple resources
+
+- [Apple's docs archive](https://developer.apple.com/library/archive/navigation/)
+- [Apple Open Source](https://opensource.apple.com/)
+- [XNU](https://github.com/apple-oss-distributions/xnu)
+- [Distribution macOS](https://github.com/apple-oss-distributions/distribution-macOS)
+
+### macOS - Mac-related blogs
+
 - [Patrick Wardle Objective-See Blog](https://www.objective-see.com/)
 - [Pedro Vilaca Reverse Engineering](https://reverse.put.as/)
 - [Howard Oakley (@howardnoakley) - The Eclectic Light Company – Macs, paintings and more](https://eclecticlight.co/)
@@ -327,15 +340,8 @@ Your [contributions](contributing.md) are always welcome !
 - [Jakob Rieck (0xdead10cc) - Blog](https://ubrigens.com/)
 - [Csaba Fitzl (@theevilbit) - Blog](https://theevilbit.github.io/)
 
-### macOS - official Apple resources
-- [Apple's docs archive](https://developer.apple.com/library/archive/navigation/)
-- [Apple Open Source](https://opensource.apple.com/)
-- [XNU](https://github.com/apple-oss-distributions/xnu)
-- [Distribution macOS](https://github.com/apple-oss-distributions/distribution-macOS)
-- [APFS Reference](https://developer.apple.com/support/downloads/Apple-File-System-Reference.pdf)
-- [Mach-O architecture](https://developer.apple.com/documentation/foundation/bundle/1495005-mach-o_architecture/)
+### Misc Apple-related resources
 
-### Apple-related misc
 - [Apple Knowledge repo](https://github.com/hack-different/apple-knowledge)
 - [AppleDB - list of software versions and released hardware](https://appledb.dev/)
 - [iOS development wiki (also covers a lot on the *OS internals)](https://iphonedev.wiki/Welcome)

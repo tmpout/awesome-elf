@@ -18,6 +18,12 @@ If you see your work cited here and would like us to credit in a more specific w
 - [Misc](README.md#Misc)
 - [Polyglots](README.md#Polyglots)
 - [Linker Script Tutorials](README.md#Linker-Script-Tutorials)
+- [macOS - General](README.md#macOS---General])
+- [macOS - Mach-O binary format](README.md#macOS---Mach-O-binary-format)
+- [macOS - APFS](README.md#macOS---APFS)
+- [macOS - Official Apple resources](README.md#macOS---Official-Apple-resources)
+- [macOS - Mac-related blogs](README.md#macOS---Mac-related-blogs)
+- [Misc Apple-related resources](README.md#Misc-Apple-related-resources)
 
 ## Adding stuff to the List
 
