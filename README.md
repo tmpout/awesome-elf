@@ -137,6 +137,9 @@ Your [contributions](contributing.md) are always welcome !
   - [GNU poke - an interactive, extensible editor for binary data](https://jemarch.net/poke)
   - [fq - jq for binary formats](https://github.com/wader/fq)
   - [ImHex - a hex editor for reverse engineers](https://github.com/WerWolv/ImHex)
+  - [Binsider](https://github.com/orhun/binsider)
+    - Binsider is a TUI tool written in Rust that can perform static and dynamic analysis, inspect strings,
+      examine linked libraries, and perform hexdumps.
 
 ### ELF VX technology
 
