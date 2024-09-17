@@ -66,9 +66,9 @@ Your [contributions](contributing.md) are always welcome !
 
 - Ignacio Sanmillan / Paul Litvak and ELF 101
   - [Executable and Linkable Format 101 - Part 1 Sections and Segments](https://www.intezer.com/blog/research/executable-linkable-format-101-part1-sections-segments/)
-  - [Executable and Linkable Format 101. Part 2: Symbols](https://www.intezer.com/blog/malware-analysis/executable-linkable-format-101-part-2-symbols/)
-  - [Executable and Linkable Format 101 Part 3: Relocations](https://www.intezer.com/blog/malware-analysis/executable-and-linkable-format-101-part-3-relocations/)
-  - [Executable and Linkable Format 101 Part 4: Dynamic Linking](https://www.intezer.com/blog/malware-analysis/executable-linkable-format-101-part-4-dynamic-linking/)
+  - [Executable and Linkable Format 101 - Part 2: Symbols](https://www.intezer.com/blog/malware-analysis/executable-linkable-format-101-part-2-symbols/)
+  - [Executable and Linkable Format 101 - Part 3: Relocations](https://www.intezer.com/blog/malware-analysis/executable-and-linkable-format-101-part-3-relocations/)
+  - [Executable and Linkable Format 101 - Part 4: Dynamic Linking](https://www.intezer.com/blog/malware-analysis/executable-linkable-format-101-part-4-dynamic-linking/)
 
 - Ignat Korchagin and object files
   - [How to execute an object file: Part 1](https://blog.cloudflare.com/how-to-execute-an-object-file-part-1/)
@@ -85,7 +85,8 @@ Your [contributions](contributing.md) are always welcome !
   - [Introduction to the ELF Format (Part VI): The Symbol Table and Relocations (2)](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi_18.html)
   - [Introduction to the ELF Format (Part VI): More Relocation tricks - r_addend execution (3)](https://blog.k3170makan.com/2018/10/introduction-to-elf-format-part-vi-more.html)
   - [Introduction to the ELF Format (Part VII): Dynamic Linking / Loading and the .dynamic section](https://blog.k3170makan.com/2018/11/introduction-to-elf-format-part-vii.html)
- - [charngda ELF Format reference (mirror)](https://stevens.netmeister.org/631/elf.html)
+
+- [charngda ELF Format reference (mirror)](https://stevens.netmeister.org/631/elf.html)
 
 - [Linux Foundation Referenced Specifications](https://refspecs.linuxbase.org)
 
@@ -97,9 +98,9 @@ Your [contributions](contributing.md) are always welcome !
 
 - netspooky and ELF Binary Mangling
   - [ELF Binary Mangling Part 1: Concepts](https://n0.lol/ebm/1.html)
-  - [Elf Binary Mangling Pt. 2: Golfin'](https://n0.lol/ebm/2.html)
-  - [Elf Binary Mangling Pt. 3: Weaponization](https://n0.lol/ebm/3.html)
-  - [Elf Binary Mangling Pt. 4: Limit Break](https://n0.lol/ebm/4.html)
+  - [Elf Binary Mangling Part 2: Golfin'](https://n0.lol/ebm/2.html)
+  - [Elf Binary Mangling Part 3: Weaponization](https://n0.lol/ebm/3.html)
+  - [Elf Binary Mangling Part 4: Limit Break](https://n0.lol/ebm/4.html)
 
 - Orlando Padilla and binary parsers
   - [Analyzing Common Binary Parser Mistakes](http://www.uninformed.org/?v=all&a=12&t=txt)
@@ -113,6 +114,9 @@ Your [contributions](contributing.md) are always welcome !
 - Samuel A. Falvo II and ELF
   - [On ELF, Part 1](https://kestrelcomputer.github.io/kestrel/2018/01/29/on-elf)
   - [On ELF, Part 2](https://kestrelcomputer.github.io/kestrel/2018/02/01/on-elf-2)
+
+- [richinseattle - Hooking the Linux ELF Loader](https://fuzzing.io/Presentations/200409%20Toorcon%20-%20Hooking%20the%20Linux%20ELF%20Loader/hooking_the_linux_ELF_loader.pdf)
+
 
 - Tools
   - [BioDiff - hex diff viewer](https://github.com/8051Enthusiast/biodiff)
@@ -133,6 +137,9 @@ Your [contributions](contributing.md) are always welcome !
   - [GNU poke - an interactive, extensible editor for binary data](https://jemarch.net/poke)
   - [fq - jq for binary formats](https://github.com/wader/fq)
   - [ImHex - a hex editor for reverse engineers](https://github.com/WerWolv/ImHex)
+  - [Binsider](https://github.com/orhun/binsider)
+    - Binsider is a TUI tool written in Rust that can perform static and dynamic analysis, inspect strings,
+      examine linked libraries, and perform hexdumps.
 
 ### ELF VX technology
 
@@ -283,20 +290,33 @@ Your [contributions](contributing.md) are always welcome !
 - [Linker Script Guide](https://www.phaedsys.com/principals/emprog/emprogdata/thunderbench-Linker-Script-guide.pdf)
 - [Most Commented Linker Script in the World](https://blog.thea.codes/the-most-thoroughly-commented-linker-script/)
 
-### macOS - general
+### macOS - General
+
 - [Papers, Slides and Thesis Archive](https://papers.put.as/macosx/macosx/)
 
-### Mach-O
+### macOS - Mach-O binary format
+
+- [Mach-O architecture](https://developer.apple.com/documentation/foundation/bundle/1495005-mach-o_architecture/)
 - [Mach-O file builders](https://alexdremov.me/mystery-of-mach-o-object-file-builders/)
 - [Exploring the Mach-O (4 part series of blogposts)](https://gpanders.com/blog/exploring-mach-o-part-1/)
 - [Understanding the Mach-O file format](https://medium.com/@travmath/understanding-the-mach-o-file-format-66cf0354e3f4)
 - [Mach-O file format reference](https://github.com/aidansteele/osx-abi-macho-file-format-reference)
 
-### APFS
-- [APFS structure](https://www.ntfs.com/apfs-structure.htm)
+### macOS - APFS
+
+- [APFS Reference](https://developer.apple.com/support/downloads/Apple-File-System-Reference.pdf)
+- [APFS Structure](https://www.ntfs.com/apfs-structure.htm)
 - [APFS Forensics](https://static.ernw.de/whitepaper/ERNW_Whitepaper65_APFS-forensics_signed.pdf)
 
-### macOS - blogs which cover a lot of Mac-related topics
+### macOS - Official Apple resources
+
+- [Apple's docs archive](https://developer.apple.com/library/archive/navigation/)
+- [Apple Open Source](https://opensource.apple.com/)
+- [XNU](https://github.com/apple-oss-distributions/xnu)
+- [Distribution macOS](https://github.com/apple-oss-distributions/distribution-macOS)
+
+### macOS - Mac-related blogs
+
 - [Patrick Wardle Objective-See Blog](https://www.objective-see.com/)
 - [Pedro Vilaca Reverse Engineering](https://reverse.put.as/)
 - [Howard Oakley (@howardnoakley) - The Eclectic Light Company – Macs, paintings and more](https://eclecticlight.co/)
@@ -323,15 +343,8 @@ Your [contributions](contributing.md) are always welcome !
 - [Jakob Rieck (0xdead10cc) - Blog](https://ubrigens.com/)
 - [Csaba Fitzl (@theevilbit) - Blog](https://theevilbit.github.io/)
 
-### macOS - official Apple resources
-- [Apple's docs archive](https://developer.apple.com/library/archive/navigation/)
-- [Apple Open Source](https://opensource.apple.com/)
-- [XNU](https://github.com/apple-oss-distributions/xnu)
-- [Distribution macOS](https://github.com/apple-oss-distributions/distribution-macOS)
-- [APFS Reference](https://developer.apple.com/support/downloads/Apple-File-System-Reference.pdf)
-- [Mach-O architecture](https://developer.apple.com/documentation/foundation/bundle/1495005-mach-o_architecture/)
+### Misc Apple-related resources
 
-### Apple-related misc
 - [Apple Knowledge repo](https://github.com/hack-different/apple-knowledge)
 - [AppleDB - list of software versions and released hardware](https://appledb.dev/)
 - [iOS development wiki (also covers a lot on the *OS internals)](https://iphonedev.wiki/Welcome)
