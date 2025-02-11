@@ -63,6 +63,7 @@ Your [contributions](contributing.md) are always welcome !
   - [hidden process /bin/ps](https://github.com/elfmaster/taskverse)
   - [davinci](https://github.com/elfmaster/davinci)
   - [sherlocked](https://github.com/elfmaster/sherlocked)
+  - [Modern Day ELF Runtime infection via GOT poisoning](https://web.archive.org/web/20130814193623/http://vxheaven.org/lib/vrn00.html)
 
 - Ignacio Sanmillan / Paul Litvak and ELF 101
   - [Executable and Linkable Format 101 - Part 1 Sections and Segments](https://www.intezer.com/blog/research/executable-linkable-format-101-part1-sections-segments/)
