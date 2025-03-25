@@ -260,7 +260,8 @@ Your [contributions](contributing.md) are always welcome !
   - [The philosophy of Elves in Linux threat detection](https://arcana-technologies.io/blog/the-philosophy-of-elves-in-linux-threat-detection/)
   - [Source](https://github.com/arcana-technologies/arcana.elfscan)
 - [ESET: Ebury is alive but unseen](https://web-assets.esetstatic.com/wls/en/papers/white-papers/ebury-is-alive-but-unseen.pdf)
-
+- [SentinelOne: Leveraging LD_AUDIT to Beat the Traditional Linux Library Preloading Technique](https://www.sentinelone.com/labs/leveraging-ld_audit-to-beat-the-traditional-linux-library-preloading-technique/)
+- [richinseattle: Automated Debugging and Process Analysis](https://fuzzing.io/Presentations/200504%20Interz0ne%20-%20Automated%20Debugging%20and%20Process%20Analysis/Automated%20Debugging%20and%20Process%20Analysis.pdf)
 
 ### ELF Challs and CTFs
 
