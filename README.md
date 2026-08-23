@@ -249,6 +249,7 @@ Your [contributions](contributing.md) are always welcome !
   - [Forseti](https://github.com/marcusbotacin/ELF.Classifier)
   - [Machine Learning for Malware Detection](https://github.com/marcusbotacin/ELF.Classifier/blob/master/paper/classifier.pdf)
 - [Ghidra Patch Diffing](https://cve-north-stars.github.io/docs/Ghidra-Patch-Diffing)
+- [fnprint](https://github.com/1rhino2/fnprint) - behavioral function fingerprinting for ELF: names functions in stripped binaries and patch-diffs vuln vs patched builds by microexecuting each function, not by bytes or CFG
 - [drgn - a powerful and flexible debugger](https://blogs.oracle.com/linux/post/enter-the-drgn)
 - [Towards Optimal Use of Exception Handling Information for Function Detection](https://arxiv.org/pdf/2104.03168.pdf)
 - [Reverse Engineering Ebpfkit Rootkit With BlackBerry's Enhanced IDA Processor
